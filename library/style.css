@@ -194,3 +194,341 @@ h1 {
     position: absolute;
     margin-bottom: 40px;
 }
+
+.Favorites-section {
+    width: 1440px;
+    height: 1439px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Favorites-text {
+    color: #0C0C0E;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.line2 {
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    margin-top: 80px;
+    background: #0C0C0E;
+    position: absolute;
+}
+
+.Pick-favorites {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 121px;
+    margin-right: 1186px;
+    margin-left: 20px;
+    display: flex;
+    position: absolute;
+}
+
+.seasons {
+    width: 700px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    margin-top: 185px;
+    margin-right: 720px;
+    margin-left: 20px;
+    align-items: center;
+    position: absolute;
+}
+
+.Group {
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+}
+
+.Winter {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.Ellipse {
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+    margin-left: 90px;
+}
+
+.Spring {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.Summer {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.Autumn {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.first-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 249px;
+    margin-left: 20px;
+    margin-right: 830px;
+    display: flex;
+    position: absolute;
+}
+
+.book {
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-top: 255px;
+    margin-left: 390px;
+    margin-bottom: 0;
+    display: flex;
+    position: absolute;
+}
+
+.bg-description {
+    width: 550px;
+    height: 554px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFF;
+    display: flex;
+    position: absolute;
+}
+
+.Staff-Picks {
+    color: #000;
+    font-family: 'Forum', cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+    position: absolute;
+}
+
+.line3 {
+    width: 60px;
+    height: 1px;
+    background: #BB945F;
+    margin-top: 55px;
+    margin-left: 20px;
+    display: flex;
+    position: absolute;
+}
+
+.The-Book-Eaters-By-Sunyi-Dean {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-bottom: 440px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.The-Book-Eaters-By-Sunyi-Dean2 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin-top: 115px;
+    margin-left: 20px;
+    margin-bottom: 400px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.The-Book-Eaters {
+    text-transform: uppercase;
+}
+
+.An-unusual-sci-fi-story {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 175px;
+    margin-left: 20px;
+    margin-right: 175px;
+    margin-bottom: 60px;
+}
+
+.Rectangle {
+    border-radius: 2px;
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+    margin-top: 510px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-right: 455px;
+    border: 1px solid #0C0C0E;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.Buy {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.second-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 249px;
+    margin-left: 830px;
+    margin-right: 60px;
+    display: flex;
+    position: absolute;
+}
+
+.third-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 844px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-right: 830px;
+    display: flex;
+    position: absolute;
+}
+
+.fourth-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 844px;
+    margin-left: 830px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    display: flex;
+    position: absolute;
+}
+
+.Rectangle1 {
+    border-radius: 2px;
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+    margin-top: 510px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-right: 455px;
+    border: 1px solid #BB945F;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.Own {
+    color: #BB945F;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.Are-your-Halloween-movies {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 175px;
+    margin-left: 20px;
+    margin-right: 175px;
+    margin-bottom: 100px;
+}
+
+.A-timely-and-revelatory {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 175px;
+    margin-left: 20px;
+    margin-right: 175px;
+    margin-bottom: 140px;
+}
