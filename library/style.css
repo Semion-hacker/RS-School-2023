@@ -999,3 +999,155 @@ h1 {
     letter-spacing: 2px;
     text-transform: capitalize;
 }
+
+.Contacts-section {
+    width: 1440px;
+    height: 575px;
+    display: flex;
+    justify-content: center;
+}
+
+.Our-Contacts {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    height: 40px;
+    margin: 20px 0 0;
+    position: absolute;
+}
+
+.line7 {
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #0C0C0E;
+    margin-top: 80px;
+    display: flex;
+    position: absolute;
+}
+
+.contacts-info {
+    width: 1400px;
+    height: 414px;
+    display: flex;
+    position: absolute;
+    margin-top: 121px;
+}
+
+.For-all-Library-inquiries {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    position: absolute;
+}
+
+.Please-call {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    position: absolute;
+    margin-top: 80px;
+}
+
+.For-TTY-service-please-call {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    position: absolute;
+    margin-top: 140px;
+}
+
+.Putterham-Library {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+}
+
+.Senior-Staff {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    position: absolute;
+    margin-top: 280px;
+}
+
+.Library-Director {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    position: absolute;
+    margin-top: 340px;
+}
+
+.Amanda-Hirst {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 195px;
+}
+
+.Rectangle-img {
+    width: 696px;
+    height: 414px;
+    margin-left: 704px;
+}
