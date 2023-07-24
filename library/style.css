@@ -532,3 +532,470 @@ h1 {
     margin-right: 175px;
     margin-bottom: 140px;
 }
+
+.CoffeShop {
+    width: 1440px;
+    height: 841px;
+    display: flex;
+    justify-content: center;
+}
+
+.Coffee-shop-text {
+    color: #0C0C0E;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    display: flex;
+    position: absolute;
+}
+
+.line4 {
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #0C0C0E;
+    margin-top: 80px;
+    display: flex;
+    position: absolute;
+}
+
+.div-Coffee-shop-main-text {
+    width: 1400px;
+    height: 120px;
+    margin-top: 121px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.Coffee-shop-main-text {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.Coffee-shop-main-text2 {
+    text-transform: lowercase;
+}
+
+.y-Coffee-shop {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 47px;
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 1358px;
+}
+
+.Coffee-shop-last-text {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    margin-top: 47px;
+    position: absolute;
+    margin-left: 36px;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.from-bakery {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    margin-top: 90px;
+}
+
+.coffe_and_tea-menu {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    width: 438px;
+    height: 520px;
+    margin-top: 281px;
+    margin-left: 20px;
+    margin-right: 982px;
+    position: absolute;
+}
+
+.Coffee-Tea {
+    height: 40px;
+    width: 438px;
+    color: #BB945F;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+}
+
+.Cold-Brew-Coffee {
+    height: 40px;
+    width: 438px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.French-Press-Pot {
+    height: 40px;
+    width: 438px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.Espresso {
+    height: 40px;
+    width: 438px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.Cappuccino {
+    height: 40px;
+    width: 438px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.Hot-tea {
+    height: 40px;
+    width: 438px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.Cold-tea {
+    height: 40px;
+    width: 438px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.line5 {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    display: flex;
+    position: absolute;
+    margin-left: 257px;
+}
+
+.price {
+    color: #000;
+    font-family: 'Forum', cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    position: absolute;
+    margin-left: 417px;
+}
+
+.deserts {
+    display: flex;
+    width: 482px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+    height: 520px;
+    position: absolute;
+    margin-left: 938px;
+    margin-right: 20px;
+    margin-top: 281px;
+}
+
+.Desserts-Cakes {
+    height: 40px;
+    color: #BB945F;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.Forest-Gateau {
+    height: 40px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    width: 482px;
+    justify-content: flex-end;
+}
+
+.Blue-Moon {
+    height: 40px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    width: 482px;
+    justify-content: flex-end;
+}
+
+.Truffle-Cake {
+    height: 40px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    width: 482px;
+    justify-content: flex-end;
+}
+
+.Chocolate-Cake {
+    height: 40px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    width: 482px;
+    justify-content: flex-end;
+}
+
+.Poet-s-Dream-Cake {
+    height: 40px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    width: 482px;
+    justify-content: flex-end;
+}
+
+.Pineapple-Cake {
+    height: 40px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    width: 482px;
+    justify-content: flex-end;
+}
+
+.line61 {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    display: flex;
+    position: absolute;
+    margin-right: 91px;
+}
+
+.line62 {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    display: flex;
+    position: absolute;
+    margin-right: 91px;
+}
+
+.line63 {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    display: flex;
+    position: absolute;
+    margin-right: 90px;
+}
+
+.line64 {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    display: flex;
+    position: absolute;
+    margin-right: 91px;
+}
+
+.line65 {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    display: flex;
+    position: absolute;
+    margin-right: 91px;
+}
+
+.line66 {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    display: flex;
+    position: absolute;
+    margin-right: 89px;
+}
+
+.Forest-Gateau-text {
+    margin-right: 251px;
+    display: flex;
+    position: absolute;
+}
+
+.Blue-Moon-text {
+    margin-right: 251px;
+    display: flex;
+    position: absolute;
+}
+
+.Truffle-Cake-text {
+    margin-right: 250px;
+    display: flex;
+    position: absolute;
+}
+
+.Chocolate-Cake-text {
+    margin-right: 251px;
+    display: flex;
+    position: absolute;
+}
+
+.Poet-s-Dream-Cake-text {
+    margin-right: 251px;
+    display: flex;
+    position: absolute;
+}
+
+.Pineapple-Cake-text {
+    margin-right: 249px;
+    display: flex;
+    position: absolute;
+}
+
+.price1 {
+    color: #000;
+    font-family: 'Forum', cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
