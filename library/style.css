@@ -1151,3 +1151,422 @@ h1 {
     height: 414px;
     margin-left: 704px;
 }
+
+.LibraryCard {
+    width: 1440px;
+    height: 614px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.Digital-Library-Cards {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.line8 {
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #0C0C0E;
+    display: flex;
+    position: absolute;
+    margin-top: 80px;
+}
+
+.find-card {
+    width: 600px;
+    height: 453px;
+    flex-shrink: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin: 121px 820px 40px 20px;
+}
+
+.Find-card-text {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    display: flex;
+    position: absolute;
+}
+
+.white-bg {
+    width: 600px;
+    height: 386px;
+    flex-shrink: 0;
+    margin-top: 66px;
+    border: 3px solid #BB945F;
+    background: #FFF;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.gold-bg {
+    width: 560px;
+    height: 272px;
+    flex-shrink: 0;
+    background: #BB945F;
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.Brooklyn-Public-Library2 {
+    color: #000;
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.input-name {
+    width: 500px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #8E8E8E;
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+}
+
+.input-number {
+    width: 500px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    position: absolute;
+    margin-top: 181px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #8E8E8E;
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+}
+
+.Check-the-card-button {
+    display: inline-flex;
+    padding: 10px 40px;
+    align-items: center;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    width: 242px;
+    height: 44px;
+    margin-top: 312px;
+    justify-content: center;
+    padding: 0;
+    background-color: #FFF;
+}
+
+.Check-the-card {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.get-a-card {
+    width: 456px;
+    height: 253px;
+    flex-shrink: 0;
+    display: flex;
+    position: absolute;
+    margin: 121px 20px 240px 964px;
+    justify-content: flex-end;
+}
+
+.Get-a-reader-card {
+    color: #000;
+    text-align: center;
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    display: flex;
+    position: absolute;
+}
+
+.register-a-new-account-div {
+    width: 456px;
+    height: 120px;
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    margin-top: 68px;
+    color: #000;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+}
+
+.Sign-Up-button {
+    display: flex;
+    width: 75px;
+    height: 30px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 223px;
+    background-color: #FFF;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    margin-right: 20px;
+}
+
+.Log-in-button {
+    display: flex;
+    width: 75px;
+    height: 30px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 223px;
+    background-color: #FFF;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+}
+
+.Sign-Up-text {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.Log-in-text {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.footer {
+    width: 1440px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    margin-top: 4996px;
+    background: #0C0C0E;
+    justify-content: center;
+}
+
+.Frame5 {
+    display: flex;
+    width: 1400px;
+    height: 40px;
+    justify-content: flex-start;
+    gap: 1022px;
+    flex-shrink: 0;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.Frame4 {
+    width: 1398px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1147px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+.footer-rss {
+    width: 1400px;
+    height: 22px;
+    flex-shrink: 0;
+    margin-top: 184px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
+
+.Frame5-text {
+    width: 229px;
+    flex-shrink: 0;
+    height: 40px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.Frame5-text a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.Frame5-text2 {
+    width: 149px;
+    height: 40px;
+    color: #FFF;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.Social-media {
+    width: 102px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.icon-twitter {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.icon-instagram {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.icon-facebook {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.Frame4-text {
+    width: 149px;
+    height: 40px;
+    color: #FFF;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.line9 {
+    width: 1400px;
+    height: 1px;
+    background: #FFF;
+    margin-top: 140px;
+}
+
+.footer-rss-text1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    position: absolute;
+}
+
+.footer-rss-text2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    position: absolute;
+    margin-left: 550px;
+}
+
+.footer-rss-text3 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    display: flex;
+    position: absolute;
+    margin-left: 1311px;
+    height: 22px;
+    align-items: center;
+}
+
+.footer-rss-text3 a {
+    text-decoration: none;
+    color: #FFF;
+}
