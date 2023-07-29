@@ -11,269 +11,561 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
-    <title>Document</title>
+    <title>Brooklyn Public Library</title>
+    <link rel="icon" href="img/favicon.ico">
 </head>
 <body>
     <header class="header">
-        <span class="Brooklyn-Public-Library">Brooklyn Public Library</span>
+        <h1 class="Brooklyn-Public-Library">Brooklyn Public Library</h1>
         <nav class="nav">
-            <span class="About navtext">About</span>
-            <span class="Favorites navtext">Favorites</span>
-            <span class="Coffee-shop navtext">Coffee shop</span>
-            <span class="Contacts navtext">Contacts</span>
-            <span class="Library-card navtext">Library Card</span>
+            <ul class="ul11">
+                <li class="li1"><a class="About navtext link" href="#About-section">About</a></li>
+                <li class="li2"><a class="Favorites navtext" href="#Favorites-section">Favorites</a></li>
+                <li class="li3"><a class="Coffee-shop navtext" href="#CoffeShop">Coffee shop</a></li>
+                <li class="li4"><a class="Contacts navtext" href="#Contacts-section">Contacts</a></li>
+                <li class="li5"><a class="Library-card navtext" href="#LibraryCard">Library Card</a></li>
+            </ul>
         </nav>
         <img class="icon" src="img\svg\icon_profile.svg" alt="icon">
     </header>
     <main class="main">
-        <article>
-            <section class="Welcome">
-                <img src="img/png/Welcome1.png" alt="Welcome" class="img-welcome">
-                <div class="Welcome-to-the-Brooklyn-Library">
-                    <h1>Welcome <br> to the Brooklyn <br> Library</h1>
-                </div>
-            </section>
-            <section class="About-section">
-                <div class="About-section-text">
-                    About
-                </div>
-                <span class="line"></span>
-                <span class="The-Brooklyn-Library">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</span>
-                <img class="image1" src="img/png/image1.png" alt="image1">
-                <img class="image2" src="img/png/image2.png" alt="image2">
-                <img class="image3" src="img/png/image3.png" alt="image3">
-                <img class="Carousel-pagination" src="img/svg/Carouselpagination.svg" alt="Carousel pagination">
-            </section>
-            <section class="Favorites-section">
-                <div class="Favorites-text">
-                    Favorites
-                </div>
-                <span class="line2"></span>
-                <span class="Pick-favorites">
-                    Pick favorites of season
-                </span>
-                <div class="seasons">
-                    <img class="Group" src="img/svg/Group.svg">
-                    <span class="Winter">Winter</span>
-                    <img class="Ellipse" src="img/svg/Ellipse2.svg">
-                    <span class="Spring">Spring</span>
-                    <img class="Ellipse" src="img/svg/Ellipse2.svg">
-                    <span class="Summer">Summer</span>
-                    <img class="Ellipse" src="img/svg/Ellipse2.svg">
-                    <span class="Autumn">Autumn</span>
-                </div>
-                <div class="first-book">
-                    <div class="bg-description">
-                        <span class="Staff-Picks">Staff Picks</span>
-                        <span class="line3"></span>
-                        <div class="The-Book-Eaters-By-Sunyi-Dean">
-                            <span class= "The-Book-Eaters">The Book Eaters</span>
-                        </div>
-                        <div class="The-Book-Eaters-By-Sunyi-Dean2">
-                            <span class="By-Sunyi-Dean">By Sunyi Dean</span>
-                        </div>
-                        <span class="An-unusual-sci-fi-story">An unusual sci-fi story about a book eater woman who tries desperately
-                            to save her dangerous mind-eater son from tradition and certain death.
-                            Complete with dysfunctional family values, light Sapphic romance, and a strong,
-                            complex protagonist. Not for the faint of heart.
-                        </span>
+        <section class="Welcome">
+            <img src="img/png/Welcome1.png" alt="Welcome" class="img-welcome">
+            <div class="Welcome-to-the-Brooklyn-Library">
+                <span>Welcome <br> to the Brooklyn <br> Library</span>
+            </div>
+        </section>
+        <section class="About-section">
+            <div class="About-section-text" id="About-section">
+                <h2>About</h2>
+            </div>
+            <span class="line"></span>
+            <span class="The-Brooklyn-Library">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</span>
+            <img class="image1" src="img/png/image1.png" alt="image1">
+            <img class="image2" src="img/png/image2.png" alt="image2">
+            <img class="image3" src="img/png/image3.png" alt="image3">
+            <div class="Carousel-pagination">
+                <div class="Carousel-pagination1">
+                    <div class="Carousel-pagination-circle1">
+                        <img src="img/svg/active-slide-pagination1.svg" alt="">
                     </div>
-                    <div class="Rectangle">
+                </div>
+                <div class="Carousel-pagination2">
+                    <div class="Carousel-pagination-circle2">
+                        <img src="img/svg/active-slide-pagination.svg" alt="">
+                    </div>
+                </div>
+                <div class="Carousel-pagination3">
+                    <div class="Carousel-pagination-circle3">
+                        <img src="img/svg/active-slide-pagination2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Favorites-section" id="Favorites-section">
+            <div class="Favorites-text">
+                <h2>Favorites</h2>
+            </div>
+            <span class="line2"></span>
+            <span class="Pick-favorites">
+                Pick favorites of season
+            </span>
+            <div class="seasons">
+                <from class="radio-from">
+                    <label class="label1">
+                        <input class="Group" type="radio" name="langadw" value="Winter"><span class="Winter">Winter</span>
+                    </label>
+                    <label class="label2">
+                        <input class="Ellipse" type="radio" name="langadw" value="Spring"><span class="Spring">Spring</span>
+                    </label>
+                    <label class="label3">
+                        <input class="Ellipse" type="radio" name="langadw" value="Summer"><span class="Summer">Summer</span>
+                    </label>
+                    <label class="label4">
+                        <input class="Ellipse" type="radio" name="langadw" value="Autumn"><span class="Autumn">Autumn</span>
+                    </label>
+                </from>
+            </div>
+            <div class="first-book">
+                <div class="bg-description">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">The Book Eaters</span>
+                    </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Sunyi Dean</span>
+                    </div>
+                    <span class="An-unusual-sci-fi-story">An unusual sci-fi story about a book eater woman who tries desperately
+                        to save her dangerous mind-eater son from tradition and certain death.
+                        Complete with dysfunctional family values, light Sapphic romance, and a strong,
+                        complex protagonist. Not for the faint of heart.
+                    </span>
+                </div>
+                <form class="form-button">
+                    <button class="Rectangle">
                         <span class="Buy">Buy</span>
-                    </div>
-                    <img class="book" src="img/png/book.png" alt="book">
-                </div>
-                <div class="second-book">
-                    <div class="bg-description">
-                        <div class="Rectangle">
+                    </button>
+                </form>
+                <img class="book" src="img/png/book.png" alt="book">
+            </div>
+            <div class="second-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </div>
-                        <div class="The-Book-Eaters-By-Sunyi-Dean">
-                            <span class= "The-Book-Eaters">Cackle</span>
-                        </div>
-                        <div class="The-Book-Eaters-By-Sunyi-Dean2">
-                            <span class="By-Sunyi-Dean">By Rachel Harrison</span>
-                        </div>
-                        <span class="Are-your-Halloween-movies">Are your Halloween movies of choice The Witches of Eastwick and Practical Magic?
-                            Look no further than here - where a woman recovering from a breakup moves to a quaint
-                            town in upstate New York and befriends a beautiful witch.
-                        </span>
-                        <img class="book" src="img/png/book1.png" alt="book1">
-                        <span class="Staff-Picks">Staff Picks</span>
-                        <span class="line3"></span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">Cackle</span>
                     </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Rachel Harrison</span>
+                    </div>
+                    <span class="Are-your-Halloween-movies">Are your Halloween movies of choice The Witches of Eastwick and Practical Magic?
+                        Look no further than here - where a woman recovering from a breakup moves to a quaint
+                        town in upstate New York and befriends a beautiful witch.
+                    </span>
+                    <img class="book" src="img/png/book1.png" alt="book1">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
                 </div>
-                <div class="third-book">
-                    <div class="bg-description">
-                        <div class="Rectangle">
+            </div>
+            <div class="third-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </div>
-                        <div class="The-Book-Eaters-By-Sunyi-Dean">
-                            <span class= "The-Book-Eaters">Dante: Poet of the Secular World</span>
-                        </div>
-                        <div class="The-Book-Eaters-By-Sunyi-Dean2">
-                            <span class="By-Sunyi-Dean">By Erich Auerbach</span>
-                        </div>
-                        <span class="An-unusual-sci-fi-story">Auerbach's engaging book places the 'Comedy'
-                            within the tradition of epic, tragedy, and philosophy in general, arguing for
-                            Dante's uniqueness as one who raised the individual and his drama of soul into
-                            something of divine significance—an inspired introduction to Dante's main themes.
-                        </span>
-                        <img class="book" src="img/png/book2.png" alt="book1">
-                        <span class="Staff-Picks">Staff Picks</span>
-                        <span class="line3"></span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">Dante: Poet of the Secular World</span>
                     </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Erich Auerbach</span>
+                    </div>
+                    <span class="An-unusual-sci-fi-story">Auerbach's engaging book places the 'Comedy'
+                        within the tradition of epic, tragedy, and philosophy in general, arguing for
+                        Dante's uniqueness as one who raised the individual and his drama of soul into
+                        something of divine significance—an inspired introduction to Dante's main themes.
+                    </span>
+                    <img class="book" src="img/png/book2.png" alt="book2">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
                 </div>
-                <div class="fourth-book">
-                    <div class="bg-description">
-                        <div class="Rectangle1">
+            </div>
+            <div class="fourth-book">
+                <div class="bg-description">
+                    <form  class="form-button1">
+                        <button class="Rectangle1" disabled>
                             <span class="Own">Own</span>
-                        </div>
-                        <div class="The-Book-Eaters-By-Sunyi-Dean">
-                            <span class= "The-Book-Eaters">The Last Queen</span>
-                        </div>
-                        <div class="The-Book-Eaters-By-Sunyi-Dean2">
-                            <span class="By-Sunyi-Dean">By Clive Irving</span>
-                        </div>
-                        <span class="A-timely-and-revelatory">A timely and revelatory new biography of Queen Elizabeth (and her family)
-                            exploring how the Windsors have evolved and thrived as the modern world
-                            has changed around them.
-                        </span>
-                        <img class="book" src="img/png/book3.png" alt="book1">
-                        <span class="Staff-Picks">Staff Picks</span>
-                        <span class="line3"></span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">The Last Queen</span>
                     </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Clive Irving</span>
+                    </div>
+                    <span class="A-timely-and-revelatory">A timely and revelatory new biography of Queen Elizabeth (and her family)
+                        exploring how the Windsors have evolved and thrived as the modern world
+                        has changed around them.
+                    </span>
+                    <img class="book" src="img/png/book3.png" alt="book3">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
                 </div>
-            </section>
-            <section class="CoffeShop">
-                <span class="Coffee-shop-text">Coffee shop</span>
-                <span class="line4"></span>
-                <div class="div-Coffee-shop-main-text">
-                    <span class="Coffee-shop-main-text">
-                        I<span class="Coffee-shop-main-text2">n our library, we have of cozy coffee shop,
-                        welcoming in customers with frothy cappuccinos and friendly conversation.</span></span
-                    ><span class="y-Coffee-shop">y</span><span class="Coffee-shop-last-text">ou can get a favorite book and read in coffee shop.
-                        Our barista to cook you best coffee, and also you can try desserts</span><span class="from-bakery"> from bakery.</span>
+            </div>
+            <div class="fifth-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
+                            <span class="Buy">Buy</span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">The Body</span>
+                    </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Stephen King</span>
+                    </div>
+                    <span class="A-timely-and-revelatory">Powerful novel that takes you back to a nostalgic time,
+                        exploring both the beauty and danger and loss of innocence that is youth.
+                    </span>
+                    <img class="book" src="img/png/book5.png" alt="book5">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
                 </div>
-                            <div class="coffe_and_tea-menu">
-                                <div class="Coffee-Tea">
-                                    Coffee & Tea
-                                </div>
-                                <div class="Cold-Brew-Coffee">
-                                    Cold Brew Coffee
-                                    <span class="line5"></span>
-                                    <span class="price">$3</span>
-                                </div>
-                                <div class="French-Press-Pot">
-                                    French Press Pot
-                                    <span class="line5"></span>
-                                    <span class="price">$5</span>
-                                </div>
-                                <div class="Espresso">
-                                    Espresso
-                                    <span class="line5"></span>
-                                    <span class="price">$2</span>
-                                </div>
-                                <div class="Cappuccino">
-                                    Cappuccino
-                                    <span class="line5"></span>
-                                    <span class="price">$4</span>
-                                </div>
-                                <div class="Hot-tea">
-                                    Hot tea
-                                    <span class="line5"></span>
-                                    <span class="price">$2</span>
-                                </div>
-                                <div class="Cold-tea">
-                                    Cold tea
-                                    <span class="line5"></span>
-                                    <span class="price">$2</span>
-                                </div>
+            </div>
+            <div class="sixth-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
+                            <span class="Buy">Buy</span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">Carry: A Memoir of Survival on Stolen Land</span>
+                    </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Toni Jenson</span>
+                    </div>
+                    <span class="A-timely-and-revelatory">This memoir about the author's relationship with
+                        gun violence feels both expansive and intimate, resulting in a lyrical indictment of the way things are.
+                    </span>
+                    <img class="book" src="img/png/book6.png" alt="book6">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
+                </div>
+            </div>
+            <div class="seventh-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
+                            <span class="Buy">Buy</span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">Days of Distraction</span>
+                    </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Alexandra Chang</span>
+                    </div>
+                    <span class="A-timely-and-revelatory">A sardonic view of Silicon Valley culture,
+                        a meditation on race, and a journal of displacement and belonging, all in one form-defying package of spare prose.
+                    </span>
+                    <img class="book" src="img/png/book7.png" alt="book7">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
+                </div>
+            </div>
+            <div class="eighth-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
+                            <span class="Buy">Buy</span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">Dominicana</span>
+                    </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Angie Cruz</span>
+                    </div>
+                    <span class="A-timely-and-revelatory">A fascinating story of a teenage girl who marries
+                        a man twice her age with the promise to bring her to America. Her marriage is an opportunity
+                        for her family to eventually immigrate. For fans of Isabel Allende and Julia Alvarez.
+                    </span>
+                    <img class="book" src="img/png/book8.png" alt="book8">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
+                </div>
+            </div>
+            <div class="ninth-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
+                            <span class="Buy">Buy</span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">Crude: A Memoir</span>
+                    </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Pablo Fajardo & ​​Sophie Tardy-Joubert</span>
+                    </div>
+                    <span class="A-timely-and-revelatory">Drawing and color by Damien Roudeau | This book illustrates the
+                        struggles of a group of indigenous Ecuadoreans as they try to sue the ChevronTexaco company for
+                        damage their oil fields did to the Amazon and her people
+                    </span>
+                    <img class="book" src="img/png/book9.png" alt="book9">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
+                </div>
+            </div>
+            <div class="tenth-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
+                            <span class="Buy">Buy</span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">Let My People Go Surfing</span>
+                    </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Yvon Chouinard</span>
+                    </div>
+                    <span class="A-timely-and-revelatory">Chouinard—climber, businessman, environmentalist—shares tales
+                        of courage and persistence from his experience of founding and leading Patagonia, Inc. Full title:
+                        Let My People Go Surfing: The Education of a Reluctant Businessman, Including 10 More Years of Business Unusual.
+                    </span>
+                    <img class="book" src="img/png/book10.png" alt="book10">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
+                </div>
+            </div>
+            <div class="eleven-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
+                            <span class="Buy">Buy</span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">The Octopus Museum: Poems</span>
+                    </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Brenda Shaughnessy</span>
+                    </div>
+                    <span class="A-timely-and-revelatory">This collection of bold and scathingly beautiful
+                        feminist poems imagines what comes after our current age of environmental destruction,
+                        racism, sexism, and divisive politics.
+                    </span>
+                    <img class="book" src="img/png/book11.png" alt="book11">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
+                </div>
+            </div>
+            <div class="twelfth-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
+                            <span class="Buy">Buy</span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">Shark Dialogues: A Novel</span>
+                    </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Kiana Davenport</span>
+                    </div>
+                    <span class="A-timely-and-revelatory">An epic saga of seven generations of one family
+                        encompasses the tumultuous history of Hawaii as a Hawaiian woman gathers her four
+                        granddaughters together in an erotic tale of villains and dreamers, queens and revolutionaries, lepers and healers.
+                    </span>
+                    <img class="book" src="img/png/book12.png" alt="book12">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
+                </div>
+            </div>
+            <div class="thirteenth-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
+                            <span class="Buy">Buy</span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">Casual Conversation</span>
+                    </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Renia White</span>
+                    </div>
+                    <span class="A-timely-and-revelatory">White's impressive debut collection takes readers through
+                        and beyond the concepts of conversation and the casual - both what we say to each other and
+                        what we don't, examining the possibilities around how we construct and communicate identity.
+                    </span>
+                    <img class="book" src="img/png/book13.png" alt="book13">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
+                </div>
+            </div>
+            <div class="fourteenth-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
+                            <span class="Buy">Buy</span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">The Great Fire</span>
+                    </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Lou Ureneck</span>
+                    </div>
+                    <span class="A-timely-and-revelatory">The harrowing story of an ordinary American and a principled Naval
+                        officer who, horrified by the burning of Smyrna, led an extraordinary rescue effort that saved a quarter
+                        of a million refugees from the Armenian Genocide
+                    </span>
+                    <img class="book" src="img/png/book14.png" alt="book14">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
+                </div>
+            </div>
+            <div class="fifteenth-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
+                            <span class="Buy">Buy</span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">Rickey: The Life and Legend</span>
+                    </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Howard Bryant</span>
+                    </div>
+                    <span class="A-timely-and-revelatory">With the fall rolling around, one can't help but think of
+                        baseball's postseason coming up! And what better way to prepare for it than reading the biography
+                        of one of the game's all-time greatest performers, the Man of Steal, Rickey Henderson?
+                    </span>
+                    <img class="book" src="img/png/book15.png" alt="book15">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
+                </div>
+            </div>
+            <div class="sixteenth-book">
+                <div class="bg-description">
+                    <form class="form-button">
+                        <button class="Rectangle">
+                            <span class="Buy">Buy</span>
+                        </button>
+                    </form>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean">
+                        <span class= "The-Book-Eaters">Slug: And Other Stories</span>
+                    </div>
+                    <div class="The-Book-Eaters-By-Sunyi-Dean2">
+                        <span class="By-Sunyi-Dean">By Megan Milks</span>
+                    </div>
+                    <span class="A-timely-and-revelatory">Exes Tegan and Sara find themselves chained together by hairballs
+                        of codependency. A father and child experience the shared trauma of giving birth to gods from their wounds.
+                    </span>
+                    <img class="book" src="img/png/book16.png" alt="book16">
+                    <span class="Staff-Picks">Staff Picks</span>
+                    <span class="line3"></span>
+                </div>
+            </div>
+        </section>
+        <section class="CoffeShop" id="CoffeShop">
+            <span class="Coffee-shop-text">
+                <h2>Coffee shop</h2>
+            </span>
+            <span class="line4"></span>
+            <div class="div-Coffee-shop-main-text">
+                <span class="Coffee-shop-main-text">
+                    I<span class="Coffee-shop-main-text2">n our library, we have of cozy coffee shop,
+                    welcoming in customers with frothy cappuccinos and friendly conversation.</span></span
+                ><span class="y-Coffee-shop">y</span><span class="Coffee-shop-last-text">ou can get a favorite book and read in coffee shop.
+                    Our barista to cook you best coffee, and also you can try desserts</span><span class="from-bakery"> from bakery.</span>
+            </div>
+                        <div class="coffe_and_tea-menu">
+                            <div class="Coffee-Tea">
+                                Coffee & Tea
                             </div>
-                <div class="deserts">
-                    <div class="Desserts-Cakes">
-                        Desserts & Cakes
-                    </div>
-                    <div class="Forest-Gateau">
-                        <span class="Forest-Gateau-text">Forest Gateau</span>
-                        <span class="line61"></span>
-                        <span class="price1">$16</span>
-                    </div>
-                    <div class="Blue-Moon">
-                        <span class="Blue-Moon-text">Blue Moon</span>
-                        <span class="line62"></span>
-                        <span class="price1">$16</span>
-                    </div>
-                    <div class="Truffle-Cake">
-                        <span class="Truffle-Cake-text">Truffle Cake</span>
-                        <span class="line63"></span>
-                        <span class="price1">$15</span>
-                    </div>
-                    <div class="Chocolate-Cake">
-                        <span class="Chocolate-Cake-text">Chocolate Cake</span>
-                        <span class="line64"></span>
-                        <span class="price1">$18</span>
-                    </div>
-                    <div class="Poet-s-Dream-Cake">
-                        <span class="Poet-s-Dream-Cake-text">Poet’s Dream Cake</span>
-                        <span class="line65"></span>
-                        <span class="price1">$16</span>
-                    </div>
-                    <div class="Pineapple-Cake">
-                        <span class="Pineapple-Cake-text">Pineapple Cake</span>
-                        <span class="line66"></span>
-                        <span class="price1">$14</span>
-                    </div>
-                </div>
-            </section>
-            <section class="Contacts-section">
-                <h1 class="Our-Contacts">Our Contacts</h1>
-                <span class="line7"></span>
-                <div class="contacts-info">
-                    <span class="For-all-Library-inquiries">For all Library inquiries:</span>
-                    <span class="Please-call">Please call (617) 730-2370</span>
-                    <span class="For-TTY-service-please-call">For TTY service, please call (617) 730-2370</span>
-                    <span class="Putterham-Library">Putterham Library: (617) 730-2385</span>
-                    <span class="Senior-Staff">Senior Staff</span>
-                    <span class="Library-Director">Library Director: </span><span class="Amanda-Hirst">Amanda Hirst</span>
-                    <img class="Rectangle-img" src="img/png/Rectangle4.png" alt="Rectangle">
-                </div>
-            </section>
-            <section class="LibraryCard">
-                <h2 class="Digital-Library-Cards">Digital Library Cards</h2>
-                <span class="line8"></span>
-                <div class="find-card">
-                    <span class="Find-card-text">Find your Library card</span>
-                    <div class="white-bg">
-                        <div class="gold-bg">
-                            <span class="Brooklyn-Public-Library2">Brooklyn Public Library</span>
-                            <form>
-                                <input type="text" class="input-name" placeholder="Reader's name">
-                                <input type="text" class="input-number" placeholder="Card number">
-                                
-                            </form>
+                            <div class="Cold-Brew-Coffee">
+                                Cold Brew Coffee
+                                <span class="line5"></span>
+                                <span class="price">$3</span>
+                            </div>
+                            <div class="French-Press-Pot">
+                                French Press Pot
+                                <span class="line5"></span>
+                                <span class="price">$5</span>
+                            </div>
+                            <div class="Espresso">
+                                Espresso
+                                <span class="line5"></span>
+                                <span class="price">$2</span>
+                            </div>
+                            <div class="Cappuccino">
+                                Cappuccino
+                                <span class="line5"></span>
+                                <span class="price">$4</span>
+                            </div>
+                            <div class="Hot-tea">
+                                Hot tea
+                                <span class="line5"></span>
+                                <span class="price">$2</span>
+                            </div>
+                            <div class="Cold-tea">
+                                Cold tea
+                                <span class="line5"></span>
+                                <span class="price">$2</span>
+                            </div>
                         </div>
+            <div class="deserts">
+                <div class="Desserts-Cakes">
+                    Desserts & Cakes
+                </div>
+                <div class="Forest-Gateau">
+                    <span class="Forest-Gateau-text">Forest Gateau</span>
+                    <span class="line61"></span>
+                    <span class="price1">$16</span>
+                </div>
+                <div class="Blue-Moon">
+                    <span class="Blue-Moon-text">Blue Moon</span>
+                    <span class="line62"></span>
+                    <span class="price1">$16</span>
+                </div>
+                <div class="Truffle-Cake">
+                    <span class="Truffle-Cake-text">Truffle Cake</span>
+                    <span class="line63"></span>
+                    <span class="price1">$15</span>
+                </div>
+                <div class="Chocolate-Cake">
+                    <span class="Chocolate-Cake-text">Chocolate Cake</span>
+                    <span class="line64"></span>
+                    <span class="price1">$18</span>
+                </div>
+                <div class="Poet-s-Dream-Cake">
+                    <span class="Poet-s-Dream-Cake-text">Poet’s Dream Cake</span>
+                    <span class="line65"></span>
+                    <span class="price1">$16</span>
+                </div>
+                <div class="Pineapple-Cake">
+                    <span class="Pineapple-Cake-text">Pineapple Cake</span>
+                    <span class="line66"></span>
+                    <span class="price1">$14</span>
+                </div>
+            </div>
+        </section>
+        <section class="Contacts-section" id="Contacts-section">
+            <h2 class="Our-Contacts">Our Contacts</h2>
+            <span class="line7"></span>
+            <div class="contacts-info">
+                <span class="For-all-Library-inquiries">For all Library inquiries:</span>
+                <span class="Please-call">Please call&nbsp;<a class="tel-a" href="tel:(617) 730-2370">(617) 730-2370</a></span>
+                <span class="For-TTY-service-please-call">For TTY service, please call&nbsp;<a class="tel-a" href="tel:(617) 730-2370">(617) 730-2370</a></span>
+                <span class="Putterham-Library">Putterham Library:&nbsp;<a class="tel-a" href="tel:(617) 730-2385">(617) 730-2385</a></span>
+                <span class="Senior-Staff">Senior Staff</span>
+                <span class="Library-Director">Library Director: </span><span class="Amanda-Hirst"><a class="tel-a" href="mailto:AmandaHirst@gmail.com">Amanda Hirst</a></span>
+                <img class="Rectangle-img" src="img/png/Rectangle4.png" alt="Rectangle">
+            </div>
+        </section>
+        <section class="LibraryCard" id="LibraryCard">
+            <h2 class="Digital-Library-Cards">Digital Library Cards</h2>
+            <span class="line8"></span>
+            <div class="find-card">
+                <span class="Find-card-text">Find your Library card</span>
+                <div class="white-bg">
+                    <div class="gold-bg">
+                        <span class="Brooklyn-Public-Library2">Brooklyn Public Library</span>
                         <form>
-                            <button class="Check-the-card-button"><span class="Check-the-card">Check the card</span></button>
+                            <input type="text" class="input-name" placeholder="Reader's name">
+                            <input type="number" class="input-number" placeholder="Card number">
                         </form>
                     </div>
-                </div>
-                <div class="get-a-card">
-                    <span class="Get-a-reader-card">Get a reader card</span>
-                    <div class="register-a-new-account-div">
-                        You will be able to see a reader card after<br>
-                        logging into account or you can register a new<br>
-                        account
-                    </div>
                     <form>
-                        <button class="Sign-Up-button"><span class="Sign-Up-text">Sign Up</span></button>
-                    </form>
-                    <form>
-                        <button class="Log-in-button"><span class="Log-in-text">Log in</span></button>
+                        <button class="Check-the-card-button"><span class="Check-the-card">Check the card</span></button>
                     </form>
                 </div>
-            </section>
-        </article>
+            </div>
+            <div class="get-a-card">
+                <span class="Get-a-reader-card">Get a reader card</span>
+                <div class="register-a-new-account-div">
+                    You will be able to see a reader card after<br>
+                    logging into account or you can register a new<br>
+                    account
+                </div>
+                <form>
+                    <button class="Sign-Up-button"><span class="Sign-Up-text">Sign Up</span></button>
+                </form>
+                <form>
+                    <button class="Log-in-button"><span class="Log-in-text">Log in</span></button>
+                </form>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="Frame5">
@@ -288,9 +580,11 @@
         </div>
         <div class="Frame4">
             <div class="Social-media">
-                <a href="https://twitter.com/elonmusksu" target="_blank"><img src="img/svg/u_twitter-alt.svg" class="icon-twitter" alt="icon-twitter"></a>
-                <a href="https://www.instagram.com/elonrmuskk/" target="_blank"><img src="img/svg/u_instagram.svg" class="icon-instagram" alt="icon-instagram"></a>
-                <a href="https://www.facebook.com/elon.musk.world/" target="_blank"><img src="img/svg/u_facebook-f.svg" class="icon-facebook" alt="icon-facebook"></a>
+                <ul class="ul">
+                    <li><a href="https://twitter.com/elonmusksu" target="_blank"><img src="img/svg/u_twitter-alt.svg" class="icon-twitter" alt="icon-twitter"></a></li>
+                    <li><a href="https://www.instagram.com/elonrmuskk/" target="_blank"><img src="img/svg/u_instagram.svg" class="icon-instagram" alt="icon-instagram"></a></li>
+                    <li><a href="https://www.facebook.com/elon.musk.world/" target="_blank"><img src="img/svg/u_facebook-f.svg" class="icon-facebook" alt="icon-facebook"></a></li>
+                </ul>
             </div>
             <div class="Frame4-text">
                 Sat - Sun<br>
@@ -300,9 +594,9 @@
         <span class="line9"></span>
         <div class="footer-rss">
             <div class="footer-rss-text1">2023</div>
-            <div class="footer-rss-text2">The Rolling Scopes School</div>
+            <div class="footer-rss-text2"><a class="The-Rolling-Scopes-School-a" href="https://rs.school/js-stage0/" target="_blank">The Rolling Scopes School</a></div>
             <div class="footer-rss-text3">
-                <a href="https://github.com/Semion-hacker" target="_blank">Siamion</a>
+                <a class="Siamion-a" href="https://github.com/Semion-hacker" target="_blank">Siamion</a>
             </div>
         </div>
     </footer>
