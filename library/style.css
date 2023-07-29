@@ -13,9 +13,62 @@
     margin-top: 90px;
 }
 
+html {
+    scroll-behavior: smooth; 
+}
+
+nav :hover{
+    color: #AC5F52;
+}
+
+.li1 a {
+    transition: color 0.5s;
+}
+
+.li2 a {
+    transition: color 0.5s;
+}
+
+.li3 a {
+    transition: color 0.5s;
+}
+
+.li4 a {
+    transition: color 0.5s;
+}
+
+.li5 a {
+    transition: color 0.5s;
+}
+
 body {
     display: flex;
     justify-content: center;
+    background-color: #8E8E8E;
+}
+
+.Welcome {
+    background-color:#FFF;
+}
+
+.About-section {
+    background-color:#FFF;
+}
+
+.Favorites-section {
+    background-color:#FFF;
+}
+
+.CoffeShop {
+    background-color:#FFF;
+}
+
+.Contacts-section {
+    background-color:#FFF;
+}
+
+.LibraryCard {
+    background-color:#FFF;
 }
 
 .Brooklyn-Public-Library {
@@ -36,6 +89,56 @@ body {
     height: 50px;
     display: flex;
     justify-content: space-between;
+}
+
+.ul {
+    display: inline;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+.ul11 {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    gap: 30px;
+}
+
+.li1 {
+    display: inline;
+    text-align: center;
+}
+
+.li2 {
+    display: inline;
+    text-align: center;
+}
+
+.li3 {
+    display: inline;
+    text-align: center;
+}
+
+.li4 {
+    display: inline;
+    text-align: center;
+}
+
+.li5 {
+    display: inline;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .navtext {
@@ -72,7 +175,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: 'Forum', cursive;
-    font-size: 20px;
+    font-size: 40px;
     font-style: normal;
     line-height: 50px;
     letter-spacing: 3px;
@@ -96,6 +199,16 @@ h1 {
     position: relative;
     width: 1440px;
     height: 600px;
+}
+
+h2 {
+    display: inline;
+    font-size: 40px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: 400;
 }
 
 .About-section-text {
@@ -193,6 +306,64 @@ h1 {
     display: flex;
     position: absolute;
     margin-bottom: 40px;
+    align-items: center;
+}
+
+.Carousel-pagination1 {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: -5px;
+}
+
+.Carousel-pagination2 {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    position: absolute;
+    margin-left: 21px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Carousel-pagination3 {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    position: absolute;
+    margin-left: 47px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Carousel-pagination1:hover {
+    cursor: pointer;
+}
+
+.Carousel-pagination2:hover {
+    cursor: pointer;
+}
+
+.Carousel-pagination3:hover {
+    cursor: pointer;
+}
+
+.Carousel-pagination-circle1 {
+    width: 16px;
+    height: 16px;
+}
+
+.Carousel-pagination-circle2 {
+    width: 16px;
+    height: 16px;
+}
+
+.Carousel-pagination-circle3 {
+    width: 16px;
+    height: 16px;
 }
 
 .Favorites-section {
@@ -215,6 +386,15 @@ h1 {
     text-transform: capitalize;
     margin-top: 20px;
     position: absolute;
+}
+
+.radio-from {
+    display: flex;
+    width: 700px;
+    height: 24px;
+    position: absolute;
+    align-items: center;
+    accent-color: #000;
 }
 
 .line2 {
@@ -264,16 +444,65 @@ h1 {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
     margin-left: 20px;
+}
+
+.label1:hover {
+    font-weight: 700;
+}
+
+.label2:hover {
+    font-weight: 700;  
+}
+
+.label3:hover {
+    font-weight: 700;  
+}
+
+.label4:hover {
+    font-weight: 700; 
+}
+
+.label1 {
+    width: 114px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.label2 {
+    width: 109px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    margin-left: 194px;
+    position: absolute;
+}
+
+.label3 {
+    width: 126px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    margin-left: 383px;
+    position: absolute;
+}
+
+.label4 {
+    width: 121px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    margin-left: 589px;
+    position: absolute;
 }
 
 .Ellipse {
     width: 17px;
     height: 17px;
     flex-shrink: 0;
-    margin-left: 90px;
 }
 
 .Spring {
@@ -281,7 +510,6 @@ h1 {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
     margin-left: 20px;
 }
@@ -291,7 +519,6 @@ h1 {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
     margin-left: 20px;
 }
@@ -301,7 +528,6 @@ h1 {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
     margin-left: 20px;
 }
@@ -414,6 +640,26 @@ h1 {
     margin-bottom: 60px;
 }
 
+button {
+    background-color: #FFF;
+}
+
+.Rectangle {
+    transition: 0.5s;
+}
+
+.Rectangle1 {
+    transition: 0.5s;
+}
+
+.Buy {
+    transition: 0.5s;
+}
+
+.Own {
+    transition: 0.5s;
+}
+
 .Rectangle {
     border-radius: 2px;
     width: 75px;
@@ -428,6 +674,18 @@ h1 {
     position: absolute;
     justify-content: center;
     align-items: center;
+}
+
+.form-button :hover {
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    background: #BB945F;
+    cursor: pointer;
+}
+
+.Buy:hover {
+    border: 0 solid #BB945F;
+    background: none;
 }
 
 .Buy {
@@ -473,6 +731,126 @@ h1 {
     margin-right: 60px;
     margin-bottom: 40px;
     display: flex;
+    position: absolute;
+}
+
+.fifth-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 149px;
+    margin-left: 2300px;
+    display: none;
+    position: absolute;
+}
+
+.sixth-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 149px;
+    margin-left: 3920px;
+    display: none;
+    position: absolute;
+}
+
+.seventh-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 744px;
+    margin-left: 2300px;
+    display: none;
+    position: absolute;
+}
+
+.eighth-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 744px;
+    margin-left: 3920px;
+    display: none;
+    position: absolute;
+}
+
+.ninth-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 1339px;
+    margin-left: 2300px;
+    display: none;
+    position: absolute;
+}
+
+.tenth-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 1339px;
+    margin-left: 3920px;
+    display: none;
+    position: absolute;
+}
+
+.eleven-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 1934px;
+    margin-left: 2300px;
+    display: none;
+    position: absolute;
+}
+
+.twelfth-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 1934px;
+    margin-left: 3920px;
+    display: none;
+    position: absolute;
+}
+
+.thirteenth-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 2529px;
+    margin-left: 2300px;
+    display: none;
+    position: absolute;
+}
+
+.fourteenth-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 2529px;
+    margin-left: 3920px;
+    display: none;
+    position: absolute;
+}
+
+.fifteenth-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 3124px;
+    margin-left: 2300px;
+    display: none;
+    position: absolute;
+}
+
+.sixteenth-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 3124px;
+    margin-left: 3920px;
+    display: none;
     position: absolute;
 }
 
@@ -1041,6 +1419,15 @@ h1 {
     margin-top: 121px;
 }
 
+.tel-a {
+    color: #000;
+    transition: 0.3s;
+}
+
+.tel-a:hover {
+    color: red;
+}
+
 .For-all-Library-inquiries {
     color: #000;
     text-align: center;
@@ -1302,6 +1689,12 @@ h1 {
     justify-content: center;
     padding: 0;
     background-color: #FFF;
+    transition: 0.5s;
+}
+
+.Check-the-card-button:hover {
+    cursor: pointer;
+    background-color: #BCD6C4;
 }
 
 .Check-the-card {
@@ -1368,6 +1761,12 @@ h1 {
     border-radius: 2px;
     border: 1px solid #0C0C0E;
     margin-right: 20px;
+    transition: 0.5s;
+}
+
+.Sign-Up-button:hover {
+    cursor: pointer;
+    background-color: #BCD6C4;
 }
 
 .Log-in-button {
@@ -1382,6 +1781,17 @@ h1 {
     background-color: #FFF;
     border-radius: 2px;
     border: 1px solid #0C0C0E;
+    transition: 0.5s;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.Log-in-button:hover {
+    cursor: pointer;
+    background-color: #BCD6C4;
 }
 
 .Sign-Up-text {
@@ -1482,7 +1892,16 @@ h1 {
     height: 24px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
     gap: 15px;
 }
 
@@ -1550,6 +1969,16 @@ h1 {
     margin-left: 550px;
 }
 
+.The-Rolling-Scopes-School-a {
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.The-Rolling-Scopes-School-a:hover {
+    color: red;
+    cursor: pointer;
+}
+
 .footer-rss-text3 {
     color: #FFF;
     text-align: center;
@@ -1569,4 +1998,12 @@ h1 {
 .footer-rss-text3 a {
     text-decoration: none;
     color: #FFF;
+}
+
+.Siamion-a {
+    transition: 0.5s;
+}
+
+.Siamion-a:hover {
+    color: red;
 }
