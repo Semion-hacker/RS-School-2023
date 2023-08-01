@@ -708,7 +708,7 @@ button {
     height: 555px;
     flex-shrink: 0;
     margin-top: 249px;
-    margin-left: 830px;
+    margin-left: 870px;
     margin-right: 60px;
     display: flex;
     position: absolute;
@@ -731,7 +731,7 @@ button {
     height: 555px;
     flex-shrink: 0;
     margin-top: 844px;
-    margin-left: 830px;
+    margin-left: 870px;
     margin-right: 60px;
     margin-bottom: 40px;
     display: flex;
@@ -1698,7 +1698,7 @@ button {
 
 .Check-the-card-button:hover {
     cursor: pointer;
-    background-color: #BCD6C4;
+    background-color: #BB945F;
 }
 
 .Check-the-card {
@@ -1770,7 +1770,7 @@ button {
 
 .Sign-Up-button:hover {
     cursor: pointer;
-    background-color: #BCD6C4;
+    background-color: #BB945F;
 }
 
 .Log-in-button {
@@ -1795,7 +1795,7 @@ input::-webkit-inner-spin-button {
 
 .Log-in-button:hover {
     cursor: pointer;
-    background-color: #BCD6C4;
+    background-color: #BB945F;
 }
 
 .Sign-Up-text {
