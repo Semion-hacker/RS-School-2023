@@ -76,7 +76,7 @@ body {
 }
 
 .Brooklyn-Public-Library {
-    margin: 0 0 0 20px;
+    margin: 0 0 0 1.39%;
     color: #FFF;
     font-family:'Forum', cursive;
     font-size: 30px;
@@ -84,15 +84,17 @@ body {
     font-weight: 400;
     line-height: 50px;
     letter-spacing: 0.6px;
+    white-space: nowrap;
 }
 
 .nav {
     color: #FFF;
-    margin-left: 454px;
+    margin-left: 31.52%;
     width: 584px;
     height: 50px;
     display: flex;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
 .ul {
@@ -162,7 +164,23 @@ a {
     width: 28px;
     height: 28px;
     flex-shrink: 0;
-    margin-left: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.icon__div {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.burger {
+    width: 45px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 20px;
+    display: none;
 }
 
 .Welcome {
@@ -171,6 +189,7 @@ a {
     flex-shrink: 0;
     background: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%);
     display: flex;
+    justify-content: center;
 }
 
 .Welcome-to-the-Brooklyn-Library {
@@ -192,6 +211,7 @@ a {
     justify-content: center;
     margin-top: 220px;
     position: absolute;
+    margin-right: 840px;
 }
 
 h1 {
@@ -253,6 +273,18 @@ h2 {
 
 .About-section .Carousel-pagination {
     align-self:flex-end;
+}
+
+.Carret_Left {
+    display: none;
+    width: 24px;
+    height: 24px;
+}
+
+.Carret_Right {
+    display: none;
+    width: 24px;
+    height: 24px;
 }
 
 .line {
@@ -1699,6 +1731,7 @@ button {
 .Check-the-card-button:hover {
     cursor: pointer;
     background-color: #BB945F;
+    border: #BB945F solid 1px;
 }
 
 .Check-the-card {
@@ -1771,6 +1804,7 @@ button {
 .Sign-Up-button:hover {
     cursor: pointer;
     background-color: #BB945F;
+    border: #BB945F solid 1px;
 }
 
 .Log-in-button {
@@ -1796,6 +1830,7 @@ input::-webkit-inner-spin-button {
 .Log-in-button:hover {
     cursor: pointer;
     background-color: #BB945F;
+    border: #BB945F solid 1px;
 }
 
 .Sign-Up-text {
@@ -1832,34 +1867,33 @@ input::-webkit-inner-spin-button {
 
 .Frame5 {
     display: flex;
-    width: 1400px;
+    width: 97.2%;
     height: 40px;
-    justify-content: flex-start;
-    gap: 1022px;
+    justify-content: space-between;
     flex-shrink: 0;
     margin-top: 20px;
     position: absolute;
 }
 
 .Frame4 {
-    width: 1398px;
+    width: 97.0%;
     height: 40px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    gap: 1147px;
     margin-top: 70px;
     position: absolute;
 }
 
 .footer-rss {
-    width: 1400px;
+    width: 97.2%;
     height: 22px;
     flex-shrink: 0;
     margin-top: 184px;
     display: flex;
     position: absolute;
     align-items: center;
+    justify-content: space-between;
 }
 
 .Frame5-text {
@@ -1940,7 +1974,7 @@ input::-webkit-inner-spin-button {
 }
 
 .line9 {
-    width: 1400px;
+    width: 97.2%;
     height: 1px;
     background: #FFF;
     margin-top: 140px;
@@ -2010,4 +2044,363 @@ input::-webkit-inner-spin-button {
 
 .Siamion-a:hover {
     color: red;
+}
+
+@media (max-width: 1440px) {
+    .header {
+        width: 99.8%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    body {
+        background-color: #FFF;
+    }
+
+    .Welcome {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .img-welcome {
+        width: 100%;
+    }
+
+    .Welcome-to-the-Brooklyn-Library {
+        margin: 0;
+        margin-top: 220px;
+    }
+
+    .About-section {
+        width: 100%;
+        height: 1162px;
+    }
+
+    .image2 {
+        display: none;
+    }
+
+    .image3 {
+        display: none;
+    }
+
+    .Carret_Left {
+        display: block;
+        margin-top: 809.5px;
+        margin-left: 77px;
+        margin-right: 667px;
+        position: absolute;
+    }
+
+    .Carret_Right {
+        display: block;
+        margin-top: 809.5px;
+        margin-left: 667px;
+        margin-right: 77px;
+        position: absolute;
+    }
+
+
+    .nav {
+        margin-left: 0;
+        flex-grow: 100;
+        padding-right: 40px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .main {
+        width: 99.8%;
+        height: 7484px;
+    }
+
+    .Favorites-section {
+        width: 99.8%;
+        height: 2629px;
+    }
+
+    .Pick-favorites {
+        margin: 121px 512px 0 20px;
+        width: 234px;
+    }
+
+    .seasons {
+        margin-right: 48px;
+        margin-left: 20px;
+    }
+
+    .first-book {
+        margin: 249px 0 0 0;
+    }
+
+    .second-book {
+        margin: 844px 0 0 0;
+    }
+
+    .third-book {
+        margin: 1439px 0 0 0;
+    }
+
+    .fourth-book {
+        margin: 2034px 0 0 0;
+    }
+
+    .CoffeShop {
+        width: 99.8%;
+        height: 1481px;
+    }
+
+    .div-Coffee-shop-main-text {
+        width: 728px;
+        height: 200px;
+    }
+
+    .Coffee-shop-last-text {
+        white-space: normal;
+        margin-top: 92px;
+        margin-left: 4px;
+        margin-right: -5px;
+        text-align: center;
+    }
+
+    .Coffee-shop-main-text {
+        width: 728px;
+        height: 200px;
+        margin-top: 12px;
+    }
+
+    .y-Coffee-shop {
+        margin: 92px 716px 0 -1px;
+
+    }
+
+    .coffe_and_tea-menu {
+        margin-top: 361px;
+        margin-right: 310px;
+        margin-left: 20px;
+    }
+
+    .from-bakery {
+        margin-top: 130px;
+        margin: 172px 0 0 0;
+    }
+
+    .deserts {
+        margin-top: 921px;
+        margin-right: 20px;
+        margin-left: 266px;
+    }
+
+    .Contacts-section {
+        width: 99.8%;
+        height: 1055px;
+    }
+
+    .contacts-info {
+        width: 727px;
+    }
+
+    .Rectangle-img {
+        display: flex;
+        position: absolute;
+        margin-top: 480px;
+        margin-left: 15.5px;
+    }
+
+    .LibraryCard {
+        width: 99.8%;
+        height: 857px;
+    }
+
+    .find-card {
+        margin: 121px 0 0 0;
+    }
+
+    .get-a-card {
+        margin: 594px 0 0 0;
+        justify-content: center;
+    }
+
+    .register-a-new-account-div {
+        text-align: center;
+    }
+
+    .Sign-Up-button {
+        margin-top: 193px;
+    }
+
+    .Log-in-button {
+        margin-top: 193px;
+    }
+
+    .register-a-new-account-div {
+        width: 600px;
+        height: 80px;
+    }
+
+    .footer {
+        width: 99.8%;
+        margin-top: 7574px;
+    }
+
+    .footer-rss-text1 {
+        margin: 0;
+        position: static;
+    }
+
+    .footer-rss-text2 {
+        margin: 0;
+        position: static;
+    }
+
+    .footer-rss-text3 {
+        margin: 0;
+        position: static;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-welcome {
+        height: 600px;
+    }
+
+    .Welcome {
+        justify-content: flex-start;
+    }
+
+    .Welcome-to-the-Brooklyn-Library {
+        margin-right: 168px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .The-Brooklyn-Library {
+        width: 728px;
+        height: 80px;
+        justify-content: center;
+
+    }
+}
+
+@media (max-width: 736px) {
+    .main {
+        height: 7564px;
+    }
+
+    .footer {
+        margin-top: 7654px;
+    }
+
+    .The-Brooklyn-Library {
+        width: 99.8%;
+    }
+
+    .coffe_and_tea-menu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .deserts {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contacts-info {
+        width: 97.5%;
+        padding-left: 10px;
+    }
+
+    .Rectangle-img {
+        position: absolute;
+        width: 96.1%;
+        margin-left: -10px;
+    }
+
+    .Pick-favorites {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .label1 {
+        position: static;
+        margin: 10px;
+    }
+
+    .label2 {
+        position: static;
+        margin: 0;
+    }
+
+    .label3 {
+        position: static;
+        margin: 0;
+    }
+
+    .label4 {
+        position: static;
+        margin: 0;
+    }
+
+    .seasons {
+        width: 99.8%;
+        margin: 185px 0 0 0;
+    }
+
+    .radio-form {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .CoffeShop {
+        height: 1561px;
+    }
+
+    .div-Coffee-shop-main-text {
+        width: 99.8%;
+    }
+
+    .Coffee-shop-main-text {
+        width: 620px;
+    }
+
+    .Coffee-shop-last-text {
+        width: 95%;
+        margin-top: 132px;
+    }
+
+    .y-Coffee-shop {
+        margin: 0;
+        margin-top: 132px;
+        margin-right: 587px;
+    }
+
+    .coffe_and_tea-menu {
+        margin-top: 441px;
+    }
+
+    .deserts {
+        margin-top: 1001px;
+    }
+
+    .from-bakery {
+        margin-top: 252px;
+    }
 }
