@@ -175,6 +175,10 @@ a {
     padding-right: 20px;
 }
 
+.icon__div__2 {
+    display: none;
+}
+
 .burger {
     width: 45px;
     height: 20px;
@@ -2260,10 +2264,6 @@ input::-webkit-inner-spin-button {
 }
 
 @media (max-width: 1024px) {
-    .nav {
-        display: none;
-    }
-
     .burger {
         display: block;
         margin-right: 20px;
@@ -2285,10 +2285,6 @@ input::-webkit-inner-spin-button {
 
     .burger {
         display: block;
-    }
-
-    .nav {
-        display: none;
     }
 
     .The-Brooklyn-Library {
@@ -2403,4 +2399,68 @@ input::-webkit-inner-spin-button {
     .from-bakery {
         margin-top: 252px;
     }
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        width: 332px;
+        height: 570px;
+        background: #000;
+        display: block;
+        right: 0;
+        flex-direction: column;
+        z-index: 10;
+        margin-top: 480px;
+        padding: 0;
+        justify-content: center;
+        position: fixed;
+        /*transform: translateX(100%);*/
+        transition: 0.7s;
+    }
+
+
+    .ul11 {
+        margin-right: 0;
+        margin-top: 100px;
+        width: 332px;
+        background: #000;
+        flex-direction: column;
+        margin: 100px 0 0 0;
+    }
+
+    .icon__div__2 {
+        display: block;
+        margin-top: 31px;
+        margin-left: 212px;
+        position: absolute;
+    }
+
+    .nav__cross {
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        z-index: 12;
+        color: #FFF;
+      }
+
+    
+
+    .nav__cross-line {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+      }
+    
+    .nav__cross-line:first-child {
+        transform: translateY(-50%) rotate(45deg);
+      }
+    
+    .nav__cross-line:last-child {
+        transform: translateY(-50%) rotate(-45deg);
+      }  
 }
