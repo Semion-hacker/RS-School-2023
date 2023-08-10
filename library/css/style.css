@@ -379,6 +379,26 @@ h2 {
     align-items: center;
 }
 
+.Carousel-pagination4 {
+    width: 26px;
+    height: 26px;
+    display: none;
+    position: absolute;
+    margin-left: 72px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Carousel-pagination5 {
+    width: 26px;
+    height: 26px;
+    display: none;
+    position: absolute;
+    margin-left: 97px;
+    justify-content: center;
+    align-items: center;
+}
+
 .Carousel-pagination1:hover {
     cursor: pointer;
 }
@@ -388,6 +408,14 @@ h2 {
 }
 
 .Carousel-pagination3:hover {
+    cursor: pointer;
+}
+
+.Carousel-pagination4:hover {
+    cursor: pointer;
+}
+
+.Carousel-pagination5:hover {
     cursor: pointer;
 }
 
@@ -402,6 +430,16 @@ h2 {
 }
 
 .Carousel-pagination-circle3 {
+    width: 16px;
+    height: 16px;
+}
+
+.Carousel-pagination-circle4 {
+    width: 16px;
+    height: 16px;
+}
+
+.Carousel-pagination-circle5 {
     width: 16px;
     height: 16px;
 }
@@ -2050,7 +2088,7 @@ input::-webkit-inner-spin-button {
     color: red;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439.5px) {
     .header {
         width: 99.8%;
         display: flex;
@@ -2104,6 +2142,17 @@ input::-webkit-inner-spin-button {
         position: absolute;
     }
 
+    .Carousel-pagination {
+        width: 120px;
+    }
+
+    .Carousel-pagination4 {
+        display: flex;
+    }
+
+    .Carousel-pagination5 {
+        display: flex;
+    }
 
     .nav {
         margin-left: 0;
@@ -2405,7 +2454,7 @@ input::-webkit-inner-spin-button {
     .nav {
         width: 332px;
         height: 570px;
-        background: #000;
+        background: #0C0C0E;
         display: block;
         right: 0;
         flex-direction: column;
@@ -2418,12 +2467,15 @@ input::-webkit-inner-spin-button {
         transition: 0.7s;
     }
 
+    .menu__nav-appears {
+        transform: translateX(0);
+    }
 
     .ul11 {
         margin-right: 0;
         margin-top: 100px;
         width: 332px;
-        background: #000;
+        background: #0C0C0E;
         flex-direction: column;
         margin: 100px 0 0 0;
     }
@@ -2431,7 +2483,7 @@ input::-webkit-inner-spin-button {
     .icon__div__2 {
         display: block;
         margin-top: 31px;
-        margin-left: 212px;
+        margin-left: 199px;
         position: absolute;
     }
 
