@@ -9,15 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <title>Brooklyn Public Library</title>
     <link rel="icon" href="img/favicon.ico">
 </head>
-<body>
+<body class="body">
     <header class="header">
         <h1 class="Brooklyn-Public-Library">Brooklyn Public Library</h1>
         <nav class="nav">
+            <div class="icon__div__2"><img class="icon" src="img/svg/icon_profile.svg" alt="icon"></div>
             <ul class="ul11">
                 <li class="li1"><a class="About navtext link" href="#About-section">About</a></li>
                 <li class="li2"><a class="Favorites navtext" href="#Favorites-section">Favorites</a></li>
@@ -25,6 +26,10 @@
                 <li class="li4"><a class="Contacts navtext" href="#Contacts-section">Contacts</a></li>
                 <li class="li5"><a class="Library-card navtext" href="#LibraryCard">Library Card</a></li>
             </ul>
+            <div class="nav__cross">
+                <span class="nav__cross-line"></span>
+                <span class="nav__cross-line"></span>
+            </div>
         </nav>
         <div class="icon__div"><img class="icon" src="img/svg/icon_profile.svg" alt="icon"></div>
         <img class="burger" src="img/svg/burger.svg" alt="burger">
@@ -60,6 +65,16 @@
                 </div>
                 <div class="Carousel-pagination3">
                     <div class="Carousel-pagination-circle3">
+                        <img src="img/svg/active-slide-pagination2.svg" alt="">
+                    </div>
+                </div>
+                <div class="Carousel-pagination4">
+                    <div class="Carousel-pagination-circle4">
+                        <img src="img/svg/active-slide-pagination2.svg" alt="">
+                    </div>
+                </div>
+                <div class="Carousel-pagination5">
+                    <div class="Carousel-pagination-circle5">
                         <img src="img/svg/active-slide-pagination2.svg" alt="">
                     </div>
                 </div>
@@ -599,6 +614,7 @@
             </div>
         </div>
     </footer>
-<script src="./index.js"></script>
+<script src="./scripts/index.js"></script>
+<script src="./scripts/menu.js"></script>
 </body>
 </html>

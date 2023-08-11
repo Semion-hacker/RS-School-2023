@@ -175,6 +175,10 @@ a {
     padding-right: 20px;
 }
 
+.icon__div__2 {
+    display: none;
+}
+
 .burger {
     width: 45px;
     height: 20px;
@@ -375,6 +379,26 @@ h2 {
     align-items: center;
 }
 
+.Carousel-pagination4 {
+    width: 26px;
+    height: 26px;
+    display: none;
+    position: absolute;
+    margin-left: 72px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Carousel-pagination5 {
+    width: 26px;
+    height: 26px;
+    display: none;
+    position: absolute;
+    margin-left: 97px;
+    justify-content: center;
+    align-items: center;
+}
+
 .Carousel-pagination1:hover {
     cursor: pointer;
 }
@@ -384,6 +408,14 @@ h2 {
 }
 
 .Carousel-pagination3:hover {
+    cursor: pointer;
+}
+
+.Carousel-pagination4:hover {
+    cursor: pointer;
+}
+
+.Carousel-pagination5:hover {
     cursor: pointer;
 }
 
@@ -398,6 +430,16 @@ h2 {
 }
 
 .Carousel-pagination-circle3 {
+    width: 16px;
+    height: 16px;
+}
+
+.Carousel-pagination-circle4 {
+    width: 16px;
+    height: 16px;
+}
+
+.Carousel-pagination-circle5 {
     width: 16px;
     height: 16px;
 }
@@ -2046,7 +2088,7 @@ input::-webkit-inner-spin-button {
     color: red;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439.5px) {
     .header {
         width: 99.8%;
         display: flex;
@@ -2100,6 +2142,17 @@ input::-webkit-inner-spin-button {
         position: absolute;
     }
 
+    .Carousel-pagination {
+        width: 120px;
+    }
+
+    .Carousel-pagination4 {
+        display: flex;
+    }
+
+    .Carousel-pagination5 {
+        display: flex;
+    }
 
     .nav {
         margin-left: 0;
@@ -2260,10 +2313,6 @@ input::-webkit-inner-spin-button {
 }
 
 @media (max-width: 1024px) {
-    .nav {
-        display: none;
-    }
-
     .burger {
         display: block;
         margin-right: 20px;
@@ -2285,10 +2334,6 @@ input::-webkit-inner-spin-button {
 
     .burger {
         display: block;
-    }
-
-    .nav {
-        display: none;
     }
 
     .The-Brooklyn-Library {
@@ -2403,4 +2448,71 @@ input::-webkit-inner-spin-button {
     .from-bakery {
         margin-top: 252px;
     }
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        width: 332px;
+        height: 570px;
+        background: #0C0C0E;
+        display: block;
+        right: 0;
+        flex-direction: column;
+        z-index: 10;
+        margin-top: 480px;
+        padding: 0;
+        justify-content: center;
+        position: fixed;
+        transform: translateX(100%);
+        transition: 0.7s;
+    }
+
+    .menu__nav-appears {
+        transform: translateX(0);
+    }
+
+    .ul11 {
+        margin-right: 0;
+        margin-top: 100px;
+        width: 332px;
+        background: #0C0C0E;
+        flex-direction: column;
+        margin: 100px 0 0 0;
+    }
+
+    .icon__div__2 {
+        display: block;
+        margin-top: 31px;
+        margin-left: 199px;
+        position: absolute;
+    }
+
+    .nav__cross {
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        z-index: 12;
+        color: #FFF;
+      }
+
+    
+
+    .nav__cross-line {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+      }
+    
+    .nav__cross-line:first-child {
+        transform: translateY(-50%) rotate(45deg);
+      }
+    
+    .nav__cross-line:last-child {
+        transform: translateY(-50%) rotate(-45deg);
+      }  
 }
