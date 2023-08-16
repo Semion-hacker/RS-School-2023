@@ -997,6 +997,12 @@ button {
     justify-content: center;
 }
 
+.coffee-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .Coffee-shop-text {
     color: #0C0C0E;
     font-family: 'Forum', cursive;
@@ -2237,7 +2243,15 @@ input::-webkit-inner-spin-button {
     .coffe_and_tea-menu {
         margin-top: 361px;
         margin-right: 310px;
-        margin-left: 20px;
+        left: 20px;
+    }
+
+    .coffe_and_tea-menu {
+        margin-left: 0;
+    }
+
+    .deserts {
+        margin-right: 0;
     }
 
     .from-bakery {
@@ -2247,7 +2261,7 @@ input::-webkit-inner-spin-button {
 
     .deserts {
         margin-top: 921px;
-        margin-right: 20px;
+        right: 20px;
         margin-left: 266px;
     }
 
