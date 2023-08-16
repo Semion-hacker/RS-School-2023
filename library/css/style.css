@@ -173,10 +173,7 @@ a {
     flex-grow: 1;
     justify-content: flex-end;
     padding-right: 20px;
-}
-
-.icon__div__2 {
-    display: none;
+    z-index: 11;
 }
 
 .burger {
@@ -227,6 +224,10 @@ h1 {
     position: relative;
     width: 1440px;
     height: 600px;
+}
+
+.img-welcome2 {
+    display: none;
 }
 
 h2 {
@@ -2328,6 +2329,13 @@ input::-webkit-inner-spin-button {
 
 @media (max-width: 768px) {
     .img-welcome {
+        display: none;
+    }
+    .img-welcome2 {
+        height: 600px;
+        display: flex;
+        position: relative;
+        width: 1440px;
         height: 600px;
     }
 
@@ -2485,13 +2493,6 @@ input::-webkit-inner-spin-button {
         background: #0C0C0E;
         flex-direction: column;
         margin: 100px 0 0 0;
-    }
-
-    .icon__div__2 {
-        display: block;
-        margin-top: 31px;
-        margin-left: 199px;
-        position: absolute;
     }
 
     .nav__cross {
