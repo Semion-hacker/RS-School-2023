@@ -1,3 +1,392 @@
+.modal_profile {
+    width: 600px;
+    height: 400px;
+    background: #FFF;
+    position: fixed;
+    z-index: 11;
+}
+
+.modal_profile_wrapper {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+
+.bg_modal_profile {
+    width: 170px;
+    height: 403px;
+    flex-shrink: 0;
+    background: #0C0C0E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.bg_modal_profile_2 {
+    width: 430px;
+    height: 403px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 170px;
+}
+
+.Rectangle_5 {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    background: #FFF;
+    margin-top: 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rectangle_5_name {
+    color: #BB945F;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+.name_bg {
+    width: 120px;
+    height: 30px;
+    flex-shrink: 0;
+    background: #FFF;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name_bg_text {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.My_profile_text {
+    color: #000;
+    text-align: center;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.cards_profile {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.visits_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bonuses_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.book_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.info_text {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+}
+
+.info_namber {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+}
+
+.Rented_books_main {
+    width: 352px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Rented_books_text {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.books_text_ul_1 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.books_text_ul_2 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.books_text_ul {
+    padding-left: 30px;
+}
+
+.card_number_Rented_books {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.Card_number_text_01 {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.Card_number_text_02 {
+    color: #BB945F;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.modal_Log_In_wrapper {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+
+.modal_Log_In {
+    width: 250px;
+    height: 262px;
+    background: #FFF;
+    z-index: 12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #000 1px solid;
+    position: fixed;
+}
+
+.modal_Log_In_text1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Forum', cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.modal_Log_In_form {
+    width: 200px;
+    height: 160px;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+.modal_Log_In_form_label1 {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.modal_Log_In_form_label2 {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.modal_Log_In_form_text1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+}
+
+.modal_Log_In_form_text2 {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+}
+
+.modal_Log_In_form_input1 {
+    width: 200px;
+    height: 20px;
+    flex-shrink: 0;
+    border: 1px solid #BB945F;
+    margin-top: 10px;
+}
+
+.modal_Log_In_form_input2 {
+    width: 200px;
+    height: 20px;
+    flex-shrink: 0;
+    border: 1px solid #BB945F;
+    margin-top: 10px;
+}
+
+.btn_sign_up_input1 {
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    background-color: #FFF;
+}
+
+.btn_sign_up {
+    margin-top: 20px;
+}
+
+.modal_Log_In_text2 {
+    width: 170px;
+    height: 12px;
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-left: 25px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.modal_Log_In_text2_text1 {
+    color: #000;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.modal_Log_In_text2_register {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-decoration-line: underline;
+    border: none;
+}
+
+.modal_Register_wrapper {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+
 .header {
     width: 1440px;
     height: 90px;
@@ -154,6 +543,111 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 50px;
+}
+
+.dropMenu_Profile_no_Auth {
+    display: flex;
+    width: 80px;
+    height: 115px;
+    background: #FFF;
+    position: fixed;
+    transform: translateX(100%);
+    /*right: -5px;*/
+    top: 0;
+    z-index: 10;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropMenu_Profile_with_Auth {
+    display: flex;
+    width: 80px;
+    height: 115px;
+    background: #FFF;
+    position: fixed;
+    transform: translateX(100%);
+    /*right: -5px;*/
+    top: 0;
+    z-index: 10;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.Profile_1_text_1 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.Profile_2_text_1 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.line_dropMenu_Profile_1 {
+    width: 40px;
+    height: 1px;
+    background: #BB945F;
+    margin-top: 5px;
+}
+
+.line_dropMenu_Profile_2 {
+    width: 40px;
+    height: 1px;
+    background: #BB945F;
+    margin-top: 5px;
+}
+
+.Profile_1_text_2 {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.Profile_1_text_3 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.Profile_2_text_2 {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.Profile_2_text_3 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
 }
 
 .About {
