@@ -13,6 +13,7 @@
     align-items: center;
     display: flex;
     position: absolute;
+    display: none;
 }
 
 .bg_modal_profile {
@@ -230,6 +231,7 @@
     align-items: center;
     display: flex;
     position: absolute;
+    display: none;
 }
 
 .modal_Log_In {
@@ -384,6 +386,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
+    display: none;
 }
 
 .modal_Register {
@@ -509,6 +512,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
+    display: none;
 }
 
 .modal_buy_a_card {
@@ -1110,29 +1114,40 @@ h2 {
     position: absolute;
 }
 
+.Carret_wrapper {
+    width: 1400px;
+    height: 560px;
+    flex-shrink: 0;
+    margin-top: 481px;
+    overflow: hidden;
+}
+
+.Carret_image_wrapper {
+    width: 2350px;
+    display: flex;
+    gap: 25px;
+    background-color: #FFF;
+    position: relative;
+    transition: all ease 1s;
+    left: 0;
+}
+
 .image1 {
     width: 450px;
     height: 560px;
     flex-shrink: 0;
-    margin-bottom: 96px;
-    margin-left: 20px;
 }
 
 .image2 {
     width: 450px;
     height: 560px;
     flex-shrink: 0;
-    margin-bottom: 96px;
-    margin-left: 25px;
 }
 
 .image3 {
     width: 450px;
     height: 560px;
     flex-shrink: 0;
-    margin-bottom: 96px;
-    margin-left: 25px;
-    margin-right: 20px;
 }
 
 .Carousel-pagination {
@@ -1193,6 +1208,46 @@ h2 {
     margin-left: 97px;
     justify-content: center;
     align-items: center;
+}
+
+.Carousel-pagination1_item1 {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #BB945F;
+}
+
+.Carousel-pagination1_item2 {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #0C0C0E;
+}
+
+.Carousel-pagination1_item3 {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #0C0C0E;
+}
+
+.Carousel-pagination1_item4 {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #0C0C0E;
+}
+
+.Carousel-pagination1_item5 {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #0C0C0E;
 }
 
 .Carousel-pagination1:hover {
@@ -1406,17 +1461,6 @@ h2 {
     margin-left: 20px;
 }
 
-.first-book {
-    width: 590px;
-    height: 555px;
-    flex-shrink: 0;
-    margin-top: 249px;
-    margin-left: 20px;
-    margin-right: 830px;
-    display: flex;
-    position: absolute;
-}
-
 .book {
     width: 200px;
     height: 300px;
@@ -1573,6 +1617,20 @@ button {
     letter-spacing: 1px;
 }
 
+.first-book {
+    width: 590px;
+    height: 555px;
+    flex-shrink: 0;
+    margin-top: 249px;
+    margin-left: 20px;
+    margin-right: 830px;
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    transition: 1s;
+}
+
 .second-book {
     width: 590px;
     height: 555px;
@@ -1581,7 +1639,10 @@ button {
     margin-left: 870px;
     margin-right: 60px;
     display: flex;
+    visibility: visible;
+    opacity: 1;
     position: absolute;
+    transition: 1s;
 }
 
 .third-book {
@@ -1593,7 +1654,10 @@ button {
     margin-bottom: 40px;
     margin-right: 830px;
     display: flex;
+    visibility: visible;
+    opacity: 1;
     position: absolute;
+    transition: 1s;
 }
 
 .fourth-book {
@@ -1605,127 +1669,184 @@ button {
     margin-right: 60px;
     margin-bottom: 40px;
     display: flex;
+    visibility: visible;
+    opacity: 1;
     position: absolute;
+    transition: 1s;
 }
 
 .fifth-book {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
     width: 590px;
     height: 555px;
     flex-shrink: 0;
-    margin-top: 149px;
-    margin-left: 2300px;
-    display: none;
+    margin-top: 249px;
+    margin-left: 20px;
+    margin-right: 830px;
     position: absolute;
+    transition: 1s;
 }
 
 .sixth-book {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
     width: 590px;
     height: 555px;
     flex-shrink: 0;
-    margin-top: 149px;
-    margin-left: 3920px;
-    display: none;
-    position: absolute;
+    margin-top: 249px;
+    margin-left: 870px;
+    margin-right: 60px;
+    transition: 1s;
 }
 
 .seventh-book {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
     width: 590px;
     height: 555px;
     flex-shrink: 0;
-    margin-top: 744px;
-    margin-left: 2300px;
-    display: none;
-    position: absolute;
+    margin-top: 844px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-right: 830px;
+    transition: 1s;
 }
 
 .eighth-book {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
     width: 590px;
     height: 555px;
     flex-shrink: 0;
-    margin-top: 744px;
-    margin-left: 3920px;
-    display: none;
-    position: absolute;
+    margin-top: 844px;
+    margin-left: 870px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    transition: 1s;
 }
 
 .ninth-book {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
     width: 590px;
     height: 555px;
     flex-shrink: 0;
-    margin-top: 1339px;
-    margin-left: 2300px;
-    display: none;
+    margin-top: 249px;
+    margin-left: 20px;
+    margin-right: 830px;
     position: absolute;
+    transition: 1s;
 }
 
 .tenth-book {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
     width: 590px;
     height: 555px;
     flex-shrink: 0;
-    margin-top: 1339px;
-    margin-left: 3920px;
-    display: none;
-    position: absolute;
+    margin-top: 249px;
+    margin-left: 870px;
+    margin-right: 60px;
+    transition: 1s;
 }
 
 .eleven-book {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
     width: 590px;
     height: 555px;
     flex-shrink: 0;
-    margin-top: 1934px;
-    margin-left: 2300px;
-    display: none;
-    position: absolute;
+    margin-top: 844px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-right: 830px;
+    transition: 1s;
 }
 
 .twelfth-book {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
     width: 590px;
     height: 555px;
     flex-shrink: 0;
-    margin-top: 1934px;
-    margin-left: 3920px;
-    display: none;
-    position: absolute;
+    margin-top: 844px;
+    margin-left: 870px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    transition: 1s;
 }
 
 .thirteenth-book {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
     width: 590px;
     height: 555px;
     flex-shrink: 0;
-    margin-top: 2529px;
-    margin-left: 2300px;
-    display: none;
+    margin-top: 249px;
+    margin-left: 20px;
+    margin-right: 830px;
     position: absolute;
+    transition: 1s;
 }
 
 .fourteenth-book {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
     width: 590px;
     height: 555px;
     flex-shrink: 0;
-    margin-top: 2529px;
-    margin-left: 3920px;
-    display: none;
-    position: absolute;
+    margin-top: 249px;
+    margin-left: 870px;
+    margin-right: 60px;
+    transition: 1s;
 }
 
 .fifteenth-book {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
     width: 590px;
     height: 555px;
     flex-shrink: 0;
-    margin-top: 3124px;
-    margin-left: 2300px;
-    display: none;
-    position: absolute;
+    margin-top: 844px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-right: 830px;
+    transition: 1s;
 }
 
 .sixteenth-book {
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
     width: 590px;
     height: 555px;
     flex-shrink: 0;
-    margin-top: 3124px;
-    margin-left: 3920px;
-    display: none;
-    position: absolute;
+    margin-top: 844px;
+    margin-left: 870px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    transition: 1s;
 }
 
 .Rectangle1 {
@@ -2921,18 +3042,30 @@ input::-webkit-inner-spin-button {
         height: 1162px;
     }
 
-    .image2 {
-        display: none;
+    .Carret_wrapper {
+        width: 450px;
+        height: 560px;
+        margin-top: 521px;
     }
-    
+
     .image1 {
-        margin-left: 0;
-        margin-top: 20px;
+        margin-bottom: 81px;
+    }
+
+    .image2 {
         margin-bottom: 81px;
     }
 
     .image3 {
-        display: none;
+        margin-bottom: 81px;
+    }
+
+    .image4 {
+        margin-bottom: 81px;
+    }
+
+    .image5 {
+        margin-bottom: 81px;
     }
 
     .Carret_Left {
