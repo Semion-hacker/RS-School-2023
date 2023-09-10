@@ -10,7 +10,7 @@ const CarouselPagination5 = document.querySelector('.Carousel-pagination1_item5'
 document.querySelector('.Carret_Right').addEventListener('click', function(){
     offset += 475;
     if (offset > 2350) {
-        offset = 0
+        offset = 1900;
     }
     sliderLine.style.left = -offset + 'px';
     examination()
@@ -19,7 +19,7 @@ document.querySelector('.Carret_Right').addEventListener('click', function(){
 document.querySelector('.Carret_Left').addEventListener('click', function(){
     offset -= 475;
     if (offset < 0) {
-        offset = 1900;
+        offset = 0;
     }
     sliderLine.style.left = -offset + 'px';
     examination()

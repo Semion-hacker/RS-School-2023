@@ -857,11 +857,15 @@ a {
     background: #FFF;
     position: fixed;
     transform: translateX(100%);
-    /*right: -5px;*/
     top: 0;
     z-index: 10;
     flex-direction: column;
     align-items: center;
+    margin-top: 59px;
+    margin-right: 85px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
 }
 
 .dropMenu_Profile_with_Auth {
@@ -871,12 +875,15 @@ a {
     background: #FFF;
     position: fixed;
     transform: translateX(100%);
-    /*right: -5px;*/
     top: 0;
     z-index: 10;
     flex-direction: column;
     align-items: center;
-    margin-left: 100px;
+    margin-top: 59px;
+    margin-right: 85px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
 }
 
 .Profile_1_text_1 {
@@ -3137,6 +3144,54 @@ input::-webkit-inner-spin-button {
     }
 
     .fourth-book {
+        margin: 2034px 0 0 0;
+    }
+
+    .fifth-book {
+        margin: 249px 0 0 0;
+    }
+
+    .sixth-book {
+        margin: 844px 0 0 0;
+    }
+
+    .seventh-book {
+        margin: 1439px 0 0 0;
+    }
+
+    .eighth-book {
+        margin: 2034px 0 0 0;
+    }
+
+    .ninth-book {
+        margin: 249px 0 0 0;
+    }
+
+    .tenth-book {
+        margin: 844px 0 0 0;
+    }
+
+    .eleven-book {
+        margin: 1439px 0 0 0;
+    }
+
+    .twelfth-book {
+        margin: 2034px 0 0 0;
+    }
+
+    .thirteenth-book {
+        margin: 249px 0 0 0;
+    }
+
+    .fourteenth-book {
+        margin: 844px 0 0 0;
+    }
+
+    .fifteenth-book {
+        margin: 1439px 0 0 0;
+    }
+
+    .sixteenth-book {
         margin: 2034px 0 0 0;
     }
 
