@@ -11,9 +11,10 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    display: flex;
-    position: absolute;
     display: none;
+    position: fixed;
+    background-color: rgba(142, 142, 142, 0.9);
+    z-index: 10;
 }
 
 .bg_modal_profile {
@@ -230,8 +231,12 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    position: absolute;
-    display: none;
+    position: fixed;
+    background-color: rgba(142, 142, 142, 0.9);
+    z-index: 11;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
 }
 
 .modal_Log_In {
@@ -379,14 +384,23 @@
     border: none;
 }
 
+.modal_Log_In_text2_register:hover {
+    color: #BB945F;
+    cursor: pointer;
+}
+
 .modal_Register_wrapper {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    display: none;
+    position: fixed;
+    background-color: rgba(142, 142, 142, 0.9);
+    z-index: 11;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
 }
 
 .modal_Register {
@@ -398,7 +412,6 @@
     align-items: center;
     position: fixed;
     z-index: 14;
-    border: 1px solid #000;
 }
 
 .modal_Register_text1 {
@@ -503,6 +516,11 @@
     letter-spacing: 1px;
     text-decoration-line: underline;
     border: none;
+}
+
+.modal_Register_text2_register:hover {
+    color: #BB945F;
+    cursor: pointer;
 }
 
 .modal_buy_a_card_wrapper {
@@ -855,7 +873,7 @@ a {
     width: 80px;
     height: 115px;
     background: #FFF;
-    position: fixed;
+    position: absolute;
     transform: translateX(100%);
     top: 0;
     z-index: 10;
@@ -931,6 +949,10 @@ a {
     margin-top: 15px;
 }
 
+.Profile_1_text_2:hover {
+    cursor: pointer;
+}
+
 .Profile_1_text_3 {
     color: #000;
     font-family: 'Inter', sans-serif;
@@ -939,6 +961,10 @@ a {
     font-weight: 400;
     line-height: 20px;
     margin-top: 10px;
+}
+
+.Profile_1_text_3:hover {
+    cursor: pointer;
 }
 
 .Profile_2_text_2 {
@@ -972,6 +998,10 @@ a {
     flex-shrink: 0;
     margin-left: 0;
     margin-right: 0;
+}
+
+.icon:hover {
+    cursor: pointer;
 }
 
 .icon__div {
