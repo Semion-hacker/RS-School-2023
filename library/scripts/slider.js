@@ -6,6 +6,12 @@ const CarouselPagination3 = document.querySelector('.Carousel-pagination1_item3'
 const CarouselPagination4 = document.querySelector('.Carousel-pagination1_item4')
 const CarouselPagination5 = document.querySelector('.Carousel-pagination1_item5')
 
+const CarouselPagination11 = document.querySelector('.Carousel-pagination1')
+const CarouselPagination21 = document.querySelector('.Carousel-pagination2')
+const CarouselPagination31 = document.querySelector('.Carousel-pagination3')
+const CarouselPagination41 = document.querySelector('.Carousel-pagination4')
+const CarouselPagination51 = document.querySelector('.Carousel-pagination5')
+
 
 document.querySelector('.Carret_Right').addEventListener('click', function(){
     offset += 475;
