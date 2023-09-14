@@ -53,8 +53,8 @@
                 </div>
                 <div class="card_number_Rented_books">
                     <span class="Card_number_text_01">Card number</span>
-                    <span class="Card_number_text_02">F00234030</span>
-                    <img src="img/svg/icon_copy.svg" alt="icon_copy">
+                    <span class="Card_number_text_02"></span>
+                    <img class="icon_copy" src="img/svg/icon_copy.svg" alt="icon_copy">
                 </div>
             </div>
         </div>
@@ -70,13 +70,13 @@
                 <label class="modal_Log_In_form_label1">
                     <span class="modal_Log_In_form_text1">E-mail or readers card</span>
                     <div class="input_box">
-                        <input class="modal_Log_In_form_input1" type="text">
+                        <input data-check = " " class="modal_Log_In_form_input1" type="text">
                     </div>
                 </label>
                 <label class="modal_Log_In_form_label2">
                     <span class="modal_Log_In_form_text2">Password</span>
                     <div class="input_box">
-                        <input class="modal_Log_In_form_input2" type="text">
+                        <input data-check2 = " " class="modal_Log_In_form_input2" type="text">
                     </div>
                 </label>
                 <div class="btn_sign_up">
@@ -106,19 +106,19 @@
                 <label class="modal_Register_label1">
                     <span class="registration_name_text">Last name</span>
                     <div class="input_box">
-                        <input class="modal_Register_forn_input" type="text">
+                        <input class="modal_Register_forn_input2" type="text">
                     </div>
                 </label>
                 <label class="modal_Register_label1">
                     <span class="registration_name_text">E-mail</span>
                     <div class="input_box">
-                        <input class="modal_Register_forn_input" type="email">
+                        <input class="modal_Register_forn_input3" type="email">
                     </div>
                 </label>
                 <label class="modal_Register_label12">
                     <span class="registration_name_text">Password</span>
                     <div class="input_box">
-                        <input data-min-Length=8 class="modal_Register_forn_input" type="text">
+                        <input data-min-Length = '8' class="modal_Register_forn_input4" type="text">
                     </div>
                 </label>
                 <input type="submit" class="modal_Register_forn_input_submit" value="Sign Up">
@@ -143,21 +143,21 @@
                     <label class="modal_buy_a_card_form1">
                         <span class="modal_buy_a_card_form_text">Bank card number</span>
                         <div class="input_box">
-                            <input class="modal_buy_a_card_form_input" type="text">
+                            <input data-equal-Length = '16' class="modal_buy_a_card_form_input" type="text">
                         </div>
                         
                     </label>
                     <label class="modal_buy_a_card_form2">
                         <span class="modal_buy_a_card_form_text">Expiration code</span><br>
                         <div class="input_box">
-                            <input class="modal_buy_a_card_form_input1" type="text">
-                            <input class="modal_buy_a_card_form_input2" type="text">
+                            <input data-equal-Length2 = '2' class="modal_buy_a_card_form_input1" type="text">
+                            <input data-equal-Length2 = '2' class="modal_buy_a_card_form_input2" type="text">
                         </div>
                     </label>
                     <label class="modal_buy_a_card_form3">
                         <span class="modal_buy_a_card_form_text">CVC</span>
                         <div class="input_box">
-                            <input class="modal_buy_a_card_form_input3" type="text">
+                            <input data-equal-Length3 = '3' class="modal_buy_a_card_form_input3" type="text">
                         </div>
                     </label>
                     <label class="modal_buy_a_card_form4">
@@ -207,7 +207,9 @@
                 <span class="nav__cross-line"></span>
             </div>
         </nav>
-        <div class="icon__div"><img class="icon" src="img/svg/icon_profile.svg" alt="icon">
+        <div class="icon__div">
+            <img class="icon" src="img/svg/icon_profile.svg" alt="icon">
+            <span class="icon2"></span>
             <div class="dropMenu_Profile_no_Auth">
                 <span class="Profile_1_text_1">Profile</span>
                 <span class="line_dropMenu_Profile_1"></span>
@@ -215,14 +217,13 @@
                 <span class="Profile_1_text_3">Register</span>
             </div>
             <div class="dropMenu_Profile_with_Auth">
-                <span class="Profile_2_text_1">Profile</span>
+                <span class="Profile_2_text_1"></span>
                 <span class="line_dropMenu_Profile_2"></span>
                 <span class="Profile_2_text_2">My profile</span>
                 <span class="Profile_2_text_3">Log Out</span>
             </div>
         </div>
         <img class="burger" src="img/svg/burger.svg" alt="burger">
-        
     </header>
     <main class="main">
         <section class="Welcome">
