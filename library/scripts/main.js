@@ -136,7 +136,3 @@ document.querySelector('.Profile_2_text_2').addEventListener('click', function()
     modalprofilewrapper.style.visibility = 'visible';
     modalprofilewrapper.style.opacity = 1;
 });
-
-document.querySelector('.icon_copy').addEventListener('click', function(){
-    select(`${localStorage.getItem('CardNumber')}`);
-});
