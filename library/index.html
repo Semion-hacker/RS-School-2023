@@ -61,15 +61,23 @@
     </div>
     <div class="modal_Log_In_wrapper">
         <div class="modal_Log_In">
+            <div class="close_btn">
+                <span class="close_btn_line1"></span>
+                <span class="close_btn_line2"></span>
+            </div>
             <span class="modal_Log_In_text1">Login</span>
-            <form class="modal_Log_In_form">
+            <form class="modal_Log_In_form" id="add-form1">
                 <label class="modal_Log_In_form_label1">
                     <span class="modal_Log_In_form_text1">E-mail or readers card</span>
-                    <input class="modal_Log_In_form_input1" type="text">
+                    <div class="input_box">
+                        <input class="modal_Log_In_form_input1" type="text">
+                    </div>
                 </label>
                 <label class="modal_Log_In_form_label2">
                     <span class="modal_Log_In_form_text2">Password</span>
-                    <input class="modal_Log_In_form_input2" type="text">
+                    <div class="input_box">
+                        <input class="modal_Log_In_form_input2" type="text">
+                    </div>
                 </label>
                 <div class="btn_sign_up">
                     <input type="submit" class="btn_sign_up_input1" value="Log In">
@@ -83,23 +91,35 @@
     </div>
     <div class="modal_Register_wrapper">
         <div class="modal_Register">
+            <div class="close_btn1">
+                <span class="close_btn1_line1"></span>
+                <span class="close_btn1_line2"></span>
+            </div>
             <span class="modal_Register_text1">Register</span>
-            <form class="modal_Register_forn">
-                <label class="modal_Register_label1">
+            <form class="modal_Register_forn" id="add-form">
+                <label class="modal_Register_label11">
                     <span class="registration_name_text">First name</span>
-                    <input class="modal_Register_forn_input" type="text">
+                    <div class="input_box">
+                        <input class="modal_Register_forn_input" type="text">
+                    </div>
                 </label>
                 <label class="modal_Register_label1">
                     <span class="registration_name_text">Last name</span>
-                    <input class="modal_Register_forn_input" type="text">
+                    <div class="input_box">
+                        <input class="modal_Register_forn_input" type="text">
+                    </div>
                 </label>
                 <label class="modal_Register_label1">
                     <span class="registration_name_text">E-mail</span>
-                    <input class="modal_Register_forn_input" type="text">
+                    <div class="input_box">
+                        <input class="modal_Register_forn_input" type="email">
+                    </div>
                 </label>
-                <label class="modal_Register_label1">
+                <label class="modal_Register_label12">
                     <span class="registration_name_text">Password</span>
-                    <input class="modal_Register_forn_input" type="text">
+                    <div class="input_box">
+                        <input data-min-Length=8 class="modal_Register_forn_input" type="text">
+                    </div>
                 </label>
                 <input type="submit" class="modal_Register_forn_input_submit" value="Sign Up">
             </form>
@@ -109,37 +129,54 @@
             </div>
         </div>
     </div>
-    <div class="modal_buy_a_card_wrapper">
+    <div class="modal_buy_a_card_wrapper" id="myModal">
         <div class="modal_buy_a_card">
             <div class="modal_buy_a_card_top_title">
                 <span class="modal_buy_a_card_top_title_text">Buy a library card</span>
+                <div class="close_btn_modal_buy_a_card">
+                    <span class="close_btn_modal_buy_a_card_line1"></span>
+                    <span class="close_btn_modal_buy_a_card_line2"></span>
+                </div>
             </div>
-            <form class="modal_buy_a_card_form">
+            <form class="modal_buy_a_card_form" id="add-form2">
                 <div class="modal_buy_a_card_form_items1">
                     <label class="modal_buy_a_card_form1">
                         <span class="modal_buy_a_card_form_text">Bank card number</span>
-                        <input class="modal_buy_a_card_form_input" type="text">
+                        <div class="input_box">
+                            <input class="modal_buy_a_card_form_input" type="text">
+                        </div>
+                        
                     </label>
                     <label class="modal_buy_a_card_form2">
                         <span class="modal_buy_a_card_form_text">Expiration code</span><br>
-                        <input class="modal_buy_a_card_form_input1" type="text">
-                        <input class="modal_buy_a_card_form_input2" type="text">
+                        <div class="input_box">
+                            <input class="modal_buy_a_card_form_input1" type="text">
+                            <input class="modal_buy_a_card_form_input2" type="text">
+                        </div>
                     </label>
                     <label class="modal_buy_a_card_form3">
                         <span class="modal_buy_a_card_form_text">CVC</span>
-                        <input class="modal_buy_a_card_form_input3" type="text">
+                        <div class="input_box">
+                            <input class="modal_buy_a_card_form_input3" type="text">
+                        </div>
                     </label>
                     <label class="modal_buy_a_card_form4">
                         <span class="modal_buy_a_card_form_text">Cardholder name</span>
-                        <input class="modal_buy_a_card_form_input" type="text">
+                        <div class="input_box">
+                            <input class="modal_buy_a_card_form_input" type="text">
+                        </div>
                     </label>
                     <label class="modal_buy_a_card_form5">
                         <span class="modal_buy_a_card_form_text">Postal code</span>
-                        <input class="modal_buy_a_card_form_input" type="text">
+                        <div class="input_box">
+                            <input class="modal_buy_a_card_form_input" type="text">
+                        </div>
                     </label>
                     <label class="modal_buy_a_card_form6">
                         <span class="modal_buy_a_card_form_text">City / Town</span>
-                        <input class="modal_buy_a_card_form_input" type="text">
+                        <div class="input_box">
+                            <input class="modal_buy_a_card_form_input" type="text">
+                        </div>
                     </label>
                 </div>
                 <div class="modal_buy_a_card_form_items2">
@@ -281,19 +318,14 @@
                     </span>
                 </div>
                 <form class="form-button">
-                    <button class="Rectangle">
+                    <div class="Rectangle">
                         <span class="Buy">Buy</span>
-                    </button>
+                    </div>
                 </form>
                 <img class="book" src="img/png/book.png" alt="book">
             </div>
             <div class="second-book">
                 <div class="bg-description">
-                    <form class="form-button">
-                        <button class="Rectangle">
-                            <span class="Buy">Buy</span>
-                        </button>
-                    </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">Cackle</span>
                     </div>
@@ -308,13 +340,18 @@
                     <span class="Staff-Picks">Staff Picks</span>
                     <span class="line3"></span>
                 </div>
+                <form class="form-button">
+                    <div class="Rectangle">
+                        <span class="Buy">Buy</span>
+                    </div>
+                </form>
             </div>
             <div class="third-book">
                 <div class="bg-description">
                     <form class="form-button">
-                        <button class="Rectangle">
+                        <div class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </button>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">Dante: Poet of the Secular World</span>
@@ -334,10 +371,10 @@
             </div>
             <div class="fourth-book">
                 <div class="bg-description">
-                    <form  class="form-button1">
-                        <button class="Rectangle1" disabled>
-                            <span class="Own">Own</span>
-                        </button>
+                    <form class="form-button">
+                        <div class="Rectangle">
+                            <span class="Buy">Buy</span>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">The Last Queen</span>
@@ -357,9 +394,9 @@
             <div class="fifth-book">
                 <div class="bg-description">
                     <form class="form-button">
-                        <button class="Rectangle">
+                        <div class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </button>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">The Body</span>
@@ -378,9 +415,9 @@
             <div class="sixth-book">
                 <div class="bg-description">
                     <form class="form-button">
-                        <button class="Rectangle">
+                        <div class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </button>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">Carry: A Memoir of Survival on Stolen Land</span>
@@ -399,9 +436,9 @@
             <div class="seventh-book">
                 <div class="bg-description">
                     <form class="form-button">
-                        <button class="Rectangle">
+                        <div class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </button>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">Days of Distraction</span>
@@ -420,9 +457,9 @@
             <div class="eighth-book">
                 <div class="bg-description">
                     <form class="form-button">
-                        <button class="Rectangle">
+                        <div class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </button>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">Dominicana</span>
@@ -442,9 +479,9 @@
             <div class="ninth-book">
                 <div class="bg-description">
                     <form class="form-button">
-                        <button class="Rectangle">
+                        <div class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </button>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">Crude: A Memoir</span>
@@ -464,9 +501,9 @@
             <div class="tenth-book">
                 <div class="bg-description">
                     <form class="form-button">
-                        <button class="Rectangle">
+                        <div class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </button>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">Let My People Go Surfing</span>
@@ -486,9 +523,9 @@
             <div class="eleven-book">
                 <div class="bg-description">
                     <form class="form-button">
-                        <button class="Rectangle">
+                        <div class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </button>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">The Octopus Museum: Poems</span>
@@ -508,9 +545,9 @@
             <div class="twelfth-book">
                 <div class="bg-description">
                     <form class="form-button">
-                        <button class="Rectangle">
+                        <div class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </button>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">Shark Dialogues: A Novel</span>
@@ -530,9 +567,9 @@
             <div class="thirteenth-book">
                 <div class="bg-description">
                     <form class="form-button">
-                        <button class="Rectangle">
+                        <div class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </button>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">Casual Conversation</span>
@@ -552,9 +589,9 @@
             <div class="fourteenth-book">
                 <div class="bg-description">
                     <form class="form-button">
-                        <button class="Rectangle">
+                        <div class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </button>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">The Great Fire</span>
@@ -574,9 +611,9 @@
             <div class="fifteenth-book">
                 <div class="bg-description">
                     <form class="form-button">
-                        <button class="Rectangle">
+                        <div class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </button>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">Rickey: The Life and Legend</span>
@@ -596,9 +633,9 @@
             <div class="sixteenth-book">
                 <div class="bg-description">
                     <form class="form-button">
-                        <button class="Rectangle">
+                        <div class="Rectangle">
                             <span class="Buy">Buy</span>
-                        </button>
+                        </div>
                     </form>
                     <div class="The-Book-Eaters-By-Sunyi-Dean">
                         <span class= "The-Book-Eaters">Slug: And Other Stories</span>
@@ -734,12 +771,12 @@
                 <div class="register-a-new-account-div">
                     You will be able to see a reader card after logging into account or you can register a new account
                 </div>
-                <form>
-                    <button class="Sign-Up-button"><span class="Sign-Up-text">Sign Up</span></button>
-                </form>
-                <form>
-                    <button class="Log-in-button"><span class="Log-in-text">Log in</span></button>
-                </form>
+                <div class="Sign-Up-button">
+                    <span class="Sign-Up-text">Sign Up</span>
+                </div>
+                <div class="Log-in-button">
+                    <span class="Log-in-text">Log in</span>
+                </div>
             </div>
         </section>
     </main>
@@ -781,5 +818,6 @@
 <script src="./scripts/slider.js"></script>
 <script src="./scripts/just_a_script.js"></script>
 <script src="./scripts/main.js"></script>
+<script src="./scripts/validation.js"></script>
 </body>
 </html>
