@@ -62,11 +62,11 @@ document.querySelector('.Carousel-pagination5').addEventListener('click', functi
 });
 function examination() {
     if (offset === 0) {
-        CarouselPagination1.style.cursor = 'auto';
-        CarouselPagination2.style.cursor = 'pointer';
-        CarouselPagination3.style.cursor = 'pointer';
-        CarouselPagination4.style.cursor = 'pointer';
-        CarouselPagination5.style.cursor = 'pointer';
+        CarouselPagination11.style.cursor = 'auto';
+        CarouselPagination21.style.cursor = 'pointer';
+        CarouselPagination31.style.cursor = 'pointer';
+        CarouselPagination41.style.cursor = 'pointer';
+        CarouselPagination51.style.cursor = 'pointer';
         CarouselPagination1.style.background = "#BB945F";
         CarouselPagination2.style.background = "#0C0C0E";
         CarouselPagination3.style.background = "#0C0C0E";
@@ -78,11 +78,11 @@ function examination() {
     
     if (offset === 475) {
         CarouselPagination1.style.background = "#0C0C0E";
-        CarouselPagination1.style.cursor = 'pointer';
-        CarouselPagination2.style.cursor = 'auto';
-        CarouselPagination3.style.cursor = 'pointer';
-        CarouselPagination4.style.cursor = 'pointer';
-        CarouselPagination5.style.cursor = 'pointer';
+        CarouselPagination11.style.cursor = 'pointer';
+        CarouselPagination21.style.cursor = 'auto';
+        CarouselPagination31.style.cursor = 'pointer';
+        CarouselPagination41.style.cursor = 'pointer';
+        CarouselPagination51.style.cursor = 'pointer';
         CarouselPagination2.style.background = "#BB945F";
         CarouselPagination3.style.background = "#0C0C0E";
         CarouselPagination4.style.background = "#0C0C0E";
@@ -94,11 +94,11 @@ function examination() {
     if (offset === 950) {
         CarouselPagination1.style.background = "#0C0C0E";
         CarouselPagination2.style.background = "#0C0C0E";
-        CarouselPagination1.style.cursor = 'pointer';
-        CarouselPagination2.style.cursor = 'pointer';
-        CarouselPagination3.style.cursor = 'auto';
-        CarouselPagination4.style.cursor = 'pointer';
-        CarouselPagination5.style.cursor = 'pointer';
+        CarouselPagination11.style.cursor = 'pointer';
+        CarouselPagination21.style.cursor = 'pointer';
+        CarouselPagination31.style.cursor = 'auto';
+        CarouselPagination41.style.cursor = 'pointer';
+        CarouselPagination51.style.cursor = 'pointer';
         CarouselPagination3.style.background = "#BB945F";
         CarouselPagination4.style.background = "#0C0C0E";
         CarouselPagination5.style.background = "#0C0C0E";
@@ -110,11 +110,11 @@ function examination() {
         CarouselPagination1.style.background = "#0C0C0E";
         CarouselPagination2.style.background = "#0C0C0E";
         CarouselPagination3.style.background = "#0C0C0E";
-        CarouselPagination1.style.cursor = 'pointer';
-        CarouselPagination2.style.cursor = 'pointer';
-        CarouselPagination3.style.cursor = 'pointer';
-        CarouselPagination4.style.cursor = 'auto';
-        CarouselPagination5.style.cursor = 'pointer';
+        CarouselPagination11.style.cursor = 'pointer';
+        CarouselPagination21.style.cursor = 'pointer';
+        CarouselPagination31.style.cursor = 'pointer';
+        CarouselPagination41.style.cursor = 'auto';
+        CarouselPagination51.style.cursor = 'pointer';
         CarouselPagination4.style.background = "#BB945F";
         CarouselPagination5.style.background = "#0C0C0E";
         document.querySelector('.Carret_Left').style.cursor = 'pointer';
@@ -126,11 +126,11 @@ function examination() {
         CarouselPagination2.style.background = "#0C0C0E";
         CarouselPagination3.style.background = "#0C0C0E";
         CarouselPagination4.style.background = "#0C0C0E";
-        CarouselPagination1.style.cursor = 'pointer';
-        CarouselPagination2.style.cursor = 'pointer';
-        CarouselPagination3.style.cursor = 'pointer';
-        CarouselPagination4.style.cursor = 'pointer';
-        CarouselPagination5.style.cursor = 'auto';
+        CarouselPagination11.style.cursor = 'pointer';
+        CarouselPagination21.style.cursor = 'pointer';
+        CarouselPagination31.style.cursor = 'pointer';
+        CarouselPagination41.style.cursor = 'pointer';
+        CarouselPagination51.style.cursor = 'auto';
         CarouselPagination5.style.background = "#BB945F";
         document.querySelector('.Carret_Right').style.cursor = 'auto';
     };
