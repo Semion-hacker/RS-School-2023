@@ -1,8 +1,11 @@
 let i = 0;
+let z = 0;
 const modalLogIn = document.querySelector('.modal_Log_In_wrapper')
 const modalRegister = document.querySelector('.modal_Register_wrapper')
 const dropMenuProfileNoAuth = document.querySelector('.dropMenu_Profile_no_Auth')
+const dropMenuProfileWithAuth = document.querySelector('.dropMenu_Profile_with_Auth')
 const modalBuyACard = document.querySelector('.modal_buy_a_card_wrapper')
+const modalprofilewrapper = document.querySelector('.modal_profile_wrapper')
 const buyButtons = document.querySelectorAll('.Rectangle')
 
 document.querySelector('.icon').addEventListener('click', function(){
@@ -18,10 +21,26 @@ document.querySelector('.icon').addEventListener('click', function(){
     };
 });
 
+document.querySelector('.icon2').addEventListener('click', function(){
+    if (z === 0) {
+        z += 1;
+        dropMenuProfileWithAuth.style.visibility = 'visible';
+        dropMenuProfileWithAuth.style.opacity = 1;
+        document.querySelector('.nav').classList.remove('menu__nav-appears');
+    } else {
+        z = 0;
+        dropMenuProfileWithAuth.style.visibility = 'hidden';
+        dropMenuProfileWithAuth.style.opacity = 0;
+    };
+});
+
 document.querySelector('.main').addEventListener('click', function(){
     i = 0;
     dropMenuProfileNoAuth.style.visibility = 'hidden';
     dropMenuProfileNoAuth.style.opacity = 0;
+    z = 0;
+    dropMenuProfileWithAuth.style.visibility = 'hidden';
+    dropMenuProfileWithAuth.style.opacity = 0;
 });
 
 document.querySelector('.Profile_1_text_2').addEventListener('click', function(){
@@ -44,6 +63,10 @@ window.onclick = function (evl) {
     if (evl.target == modalBuyACard) {
         modalBuyACard.style.visibility = 'hidden';
         modalBuyACard.style.opacity = 0;
+    }
+    if (evl.target == modalprofilewrapper) {
+        modalprofilewrapper.style.visibility = 'hidden';
+        modalprofilewrapper.style.opacity = 0;
     }
 }
 
@@ -103,4 +126,17 @@ buyButtons.forEach((button) =>{
 document.querySelector('.close_btn_modal_buy_a_card').addEventListener('click', function(){
     modalBuyACard.style.visibility = 'hidden';
     modalBuyACard.style.opacity = 0;
+});
+
+document.querySelector('.Profile_2_text_3').addEventListener('click', function(){
+    location.reload();
+});
+
+document.querySelector('.Profile_2_text_2').addEventListener('click', function(){
+    modalprofilewrapper.style.visibility = 'visible';
+    modalprofilewrapper.style.opacity = 1;
+});
+
+document.querySelector('.icon_copy').addEventListener('click', function(){
+    select(`${localStorage.getItem('CardNumber')}`);
 });

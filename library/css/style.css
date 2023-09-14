@@ -11,10 +11,13 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    display: none;
+    display: flex;
     position: fixed;
     background-color: rgba(142, 142, 142, 0.9);
     z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
 }
 
 .bg_modal_profile {
@@ -223,6 +226,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+}
+
+.icon_copy:hover {
+    cursor: pointer;
 }
 
 .modal_Log_In_wrapper {
@@ -569,6 +576,36 @@
 }
 
 .modal_Register_forn_input {
+    display: block;
+    width: 200px;
+    height: 20px;
+    flex-shrink: 0;
+    border: 1px solid #BB945F;
+    margin-top: 10px;
+    padding: 0 3px 0 3px;
+}
+
+.modal_Register_forn_input2 {
+    display: block;
+    width: 200px;
+    height: 20px;
+    flex-shrink: 0;
+    border: 1px solid #BB945F;
+    margin-top: 10px;
+    padding: 0 3px 0 3px;
+}
+
+.modal_Register_forn_input3 {
+    display: block;
+    width: 200px;
+    height: 20px;
+    flex-shrink: 0;
+    border: 1px solid #BB945F;
+    margin-top: 10px;
+    padding: 0 3px 0 3px;
+}
+
+.modal_Register_forn_input4 {
     display: block;
     width: 200px;
     height: 20px;
@@ -1042,11 +1079,11 @@ a {
 }
 
 .dropMenu_Profile_with_Auth {
-    display: flex;
+    display: none;
     width: 80px;
     height: 115px;
     background: #FFF;
-    position: fixed;
+    position: absolute;
     transform: translateX(100%);
     top: 0;
     z-index: 10;
@@ -1072,7 +1109,7 @@ a {
 .Profile_2_text_1 {
     color: #000;
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 0.75rem;
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
@@ -1133,6 +1170,14 @@ a {
     margin-top: 15px;
 }
 
+.Profile_2_text_2:hover {
+    cursor: pointer;
+}
+
+.Profile_2_text_3:hover {
+    cursor: pointer;
+}
+
 .Profile_2_text_3 {
     color: #000;
     font-family: 'Inter', sans-serif;
@@ -1159,12 +1204,38 @@ a {
     cursor: pointer;
 }
 
+.icon2:hover {
+    cursor: pointer;
+}
+
+.icon2 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    color: #BB945F;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 100%;
+    background-color: #FFF;
+    z-index: 14;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .icon__div {
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
     padding-right: 20px;
     z-index: 11;
+    align-items: center;
 }
 
 .burger {
