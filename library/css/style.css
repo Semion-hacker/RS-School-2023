@@ -3343,6 +3343,14 @@ input::-webkit-inner-spin-button {
         position: absolute;
     }
 
+    .Carret_Left:hover {
+        cursor: pointer;
+    }
+
+    .Carret_Right:hover {
+        cursor: pointer;
+    }
+
     .Carret_Right {
         display: block;
         margin-top: 809.5px;
