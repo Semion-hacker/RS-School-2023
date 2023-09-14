@@ -250,6 +250,47 @@
     position: fixed;
 }
 
+.close_btn {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 15px;
+    margin-top: 15.15px;
+}
+
+.close_btn:hover {
+    cursor: pointer;
+}
+
+.close_btn_line1 {
+    display: flex;
+    width: 21.108px;
+    height: 3px;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: #0C0C0E;
+    position: absolute;
+    z-index: 16;
+    background-color: #0C0C0E;
+}
+
+.close_btn_line2 {
+    width: 21.108px;
+    height: 3px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: #0C0C0E;
+    position: absolute;
+    z-index: 16;
+    background-color: #0C0C0E;
+}
+
 .modal_Log_In_text1 {
     color: #000;
     text-align: center;
@@ -414,6 +455,59 @@
     z-index: 14;
 }
 
+.error .modal_Register_forn_input {
+    border-color: red;
+}
+
+.error_label {
+    color: red;
+    margin: 0;
+    font-size: 0.625rem;
+    display: flex;
+    position: absolute;
+}
+
+.close_btn1 {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 15px;
+    margin-top: 15px;
+}
+
+.close_btn1:hover {
+    cursor: pointer;
+}
+
+.close_btn1_line1 {
+    display: flex;
+    width: 21.108px;
+    height: 3px;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: #0C0C0E;
+    position: absolute;
+    z-index: 16;
+    background-color: #0C0C0E;
+}
+
+.close_btn1_line2 {
+    width: 21.108px;
+    height: 3px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: #0C0C0E;
+    position: absolute;
+    z-index: 16;
+    background-color: #0C0C0E;
+}
+
 .modal_Register_text1 {
     color: #000;
     text-align: center;
@@ -434,13 +528,33 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+}
+
+.modal_Register_label11 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    height: 51.8px;
+}
+
+.modal_Register_label12 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+    height: 51.8px;
 }
 
 .modal_Register_label1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 8px;
+    flex-shrink: 0;
+    height: 51.8px;
 }
 
 .registration_name_text {
@@ -529,8 +643,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    display: none;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    z-index: 10;
+    background-color: rgba(142, 142, 142, 0.9);
 }
 
 .modal_buy_a_card {
@@ -539,6 +657,40 @@
     background: #FFF;
     z-index: 15;
     position: fixed;
+}
+
+.close_btn_modal_buy_a_card {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 25px;
+    top: 25.15px;
+}
+
+.close_btn_modal_buy_a_card:hover {
+    cursor: pointer;
+}
+
+.close_btn_modal_buy_a_card_line1 {
+    width: 21.108px;
+    height: 3px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    background-color: #FFF;
+    position: absolute;
+}
+
+.close_btn_modal_buy_a_card_line2 {
+    width: 21.108px;
+    height: 3px;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    background-color: #FFF;
+    position: absolute;
 }
 
 .modal_buy_a_card_top_title {
@@ -575,7 +727,6 @@
 .modal_buy_a_card_form_items1 {
     display: flex;
     flex-direction: column;
-    gap: 8px;
 }
 
 .modal_buy_a_card_form_text {
@@ -595,6 +746,7 @@
     flex-shrink: 0;
     border: 1px solid #BB945F;
     padding: 0 3px 0 3px;
+    margin-top: 10px;
 }
 
 .modal_buy_a_card_form_input1 {
@@ -620,21 +772,23 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+}
+
+.modal_buy_a_card_form2 {
+    margin-top: 10px;
 }
 
 .modal_buy_a_card_form3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    margin-top: 10px;
 }
 
 .modal_buy_a_card_form4 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
     margin-top: 10px;
 }
 
@@ -642,14 +796,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    margin-top: 10px;
 }
 
 .modal_buy_a_card_form6 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    margin-top: 10px;
 }
 
 .modal_buy_a_card_form_input3 {
@@ -658,6 +812,7 @@
     flex-shrink: 0;
     border: 1px solid #BB945F;
     padding: 0 3px 0 3px;
+    margin-top: 10px;
 }
 
 .modal_buy_a_card_form_items2 {
@@ -1606,6 +1761,12 @@ button {
 .Rectangle1 {
     transition: 0.5s;
 }
+
+/*<form  class="form-button1">
+    <button class="Rectangle1" disabled>
+        <span class="Own">Own</span>
+    </button>
+</form>*/
 
 .Buy {
     transition: 0.5s;
@@ -2790,7 +2951,6 @@ button {
     display: flex;
     width: 75px;
     height: 30px;
-    padding: 10px 0px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
@@ -2812,7 +2972,6 @@ button {
     display: flex;
     width: 75px;
     height: 30px;
-    padding: 10px 0px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
