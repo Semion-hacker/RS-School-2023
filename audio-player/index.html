@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <title>Audio-player</title>
+    <link rel="icon" href="img/favicon.ico">
+</head>
+<body class="body">
+    <main>
+        <img class="background" src="img/png/img1.png" alt="background">
+        <div class="wrapper">
+            <div class="player">
+                <div class="img_wrapper">
+                    <img class="img" src="img/png/img1.png" alt="img1">
+                </div>
+                <div class="wrapper_player">
+                    <div class="btn1"><img class="play_img" src="img/png/play.png" alt="play"></div>
+                    <div class="wrapper_text">
+                        <div class="author">Simon Khorolskiy</div>
+                        <div class="song">Ты всегда со мной</div>
+                    </div>
+                    <audio class="audio" src="audio/Ты всегда со мной.mp3"></audio>
+                    <div class="buttons">
+                        <div class="btn"><img class="prev_img" src="img/png/backward.png" alt="prev"></div>
+                        <div class="btn"><img class="next_img" src="img/png/forward.png" alt="next"></div>
+                    </div>
+                </div>
+                <div class="progress_container">
+                    <div class="progress">
+                        <div class="progress_slider"></div>
+                    </div>
+                </div>
+                <div class="time">
+                    <div class="start_time">00:00</div>
+                    <div class="all_time">00:00</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="links">
+            <div class="footer_text_wrapper">
+                <span class="footer_text">2023</span>
+            </div>
+            <a class="link1" href="https://rs.school/js-stage0/">
+                <img class="rs_school" src="img/svg/rs_school_js.svg" alt="rs_school">
+            </a>
+            <a class="link2" href="https://github.com/Semion-hacker">
+                <img class="github" src="img/png/github.png" alt="github">
+            </a>
+        </div>
+    </footer>
+<script src="./scripts/index.js"></script>  
+</body>
+</html>
