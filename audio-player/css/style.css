@@ -1,0 +1,152 @@
+.body {
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    filter: blur(10px);
+}
+
+.wrapper {
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    width: 22em;
+    height: 25em;
+    border-radius: 1em;
+    box-shadow: 0px 0px 1em 1em rgba(0, 0, 0, 0.35);
+    background-color: #91553D;
+    overflow: hidden;
+}
+
+.img_wrapper {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 100%;
+    min-height: 16.7em;
+    overflow: hidden;
+}
+
+.wrapper_player {
+    display: flex;
+    margin: 15px auto 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.wrapper_text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 175px;
+}
+
+.author {
+    color: #1C2E3C;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.song {
+    color: #F1DAAE;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.img {
+    display: flex;
+    max-height: 16.7em;
+}
+
+.play_img {
+    width: 3em;
+    height: 3em;
+}
+
+.btn {
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.btn1 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1:hover {
+    transition: 0.5s;
+    transform: scale(1.13);
+    background-color: bisque;
+    border-radius: 100%;
+}
+
+.prev_img {
+    width: 34px;
+    height: 34px;
+}
+
+.next_img {
+    width: 34px;
+    height: 34px;
+    padding-left: 1.3px;
+}
+
+.prev_img:hover {
+    transition: 0.5s;
+    transform: scale(1.13);
+    background-color: bisque;
+    border-radius: 100%;
+}
+
+.next_img:hover {
+    transition: 0.5s;
+    transform: scale(1.13);
+    background-color: bisque;
+    border-radius: 100%;
+}
+
+.progress_container {
+    background-color: #1C2E3C;
+    width: 19.6em;
+    height: 0.48em;
+    border-radius: 5px;
+    margin: 15px auto 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.progress {
+    background-color: #F1DAAE;
+    height: 0.24em;
+    border-radius: 5px;
+    margin-left: 0.12em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.progress_slider {
+    position: absolute;
+    background-color: #F1DAAE;
+    border: 0.12em solid #1C2E3C;
+    height: 0.85em;
+    width: 0.45em;
+    border-radius: 0.5em;
+}
