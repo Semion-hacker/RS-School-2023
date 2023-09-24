@@ -150,3 +150,63 @@
     width: 0.45em;
     border-radius: 0.5em;
 }
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 6em;
+    bottom: 0;
+}
+
+.footer_text_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text {
+    color: #91553D;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer_text:hover {
+    color: bisque;
+    transition: 0.7s;
+}
+
+.links {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rs_school {
+    width: 100px;
+}
+
+.rs_school:hover {
+    background-color: bisque;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.github:hover {
+    background-color: bisque;
+    border-radius: 100%;
+    transition: 0.7s;
+}
