@@ -8,7 +8,9 @@ const player = document.querySelector('.player'),
       author = document.querySelector('.author'),
       title = document.querySelector('.song'),
       background = document.querySelector('.background'),
-      img = document.querySelector('.img')
+      img = document.querySelector('.img'),
+      startTime = document.querySelector('.start_time'),
+      allTime = document.querySelector('.all_time')
 
 const songs = ['Ты всегда со мной', 'Обратись, Господи', 'Кто как Ты, Господи'];
 const authorList = ['Simon Khorolskiy', 'Simon K.', 'S. Khorolskiy'];
@@ -102,3 +104,27 @@ progressContainer.addEventListener('click', setProgress)
 
 //autoplay
 audio.addEventListener('ended', nextSong)
+
+//time
+
+function timeduration() {
+    const currentElement = document.querySelector('.start_time');
+    const lengthElement = document.querySelector('.all_time');
+    
+    const currentTime = audio.currentTime;
+    const duration = audio.duration;
+    
+    function formatTime(time) {
+      if (isNaN(time)) {
+        return '0:00';
+      }
+      const minutes = Math.floor(time / 60);
+      const seconds = Math.floor(time % 60);
+      return `${minutes}:${seconds.toString().padStart(2, '0')}`;
+    }
+    
+    currentElement.textContent = formatTime(currentTime);
+    lengthElement.textContent = formatTime(duration);
+}
+
+audio.addEventListener('timeupdate', timeduration);

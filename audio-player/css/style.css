@@ -210,3 +210,14 @@
     border-radius: 100%;
     transition: 0.7s;
 }
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    min-width: 19.6em;
+    max-width: 19.6em;
+    margin: 3px auto 0;
+    color: #231F20;
+    font-family: sans-serif;
+    font-weight: bold;
+}
