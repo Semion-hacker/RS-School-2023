@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -16,6 +17,7 @@
 .wrapper {
     width: 1280px;
     height: 100%;
+    background-color: #2C2C2C;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,4 +59,43 @@
 
 .header_button:hover {
     background-color: #FFA500;
+}
+
+/*main*/
+
+.main {
+    background-color: black;
+}
+
+.wrapper_img {
+    width: 100%;
+    height: auto;
+    max-width: 1280px;
+    background-color: #2C2C2C;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+.img_div {
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 13px;
+    transition: 0.5s;
+    border: 3px solid #FFA500;
+}
+
+.image:hover {
+    border: none;
+    cursor: pointer;
+    transform: scale(1.04);
 }
