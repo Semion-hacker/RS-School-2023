@@ -1,1 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+.sky {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-bottom: 5px solid #66FCF1;
+}
+
+.header_text {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #66FCF1;
+    font-size: 36px;
+}
